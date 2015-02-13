@@ -1,0 +1,10 @@
+\frametitle {Performance}
+%-------------------------------CODE
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+>>> from sklearn.metrics import confusion_matrix
+>>> print confusion_matrix(ytest, ypred)
+[[20  5]
+ [ 2 42]]
+\end{minted}
+
+%-------------------------------END CODE

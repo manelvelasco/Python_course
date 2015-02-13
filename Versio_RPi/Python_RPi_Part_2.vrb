@@ -1,0 +1,14 @@
+\frametitle {Ejercicio}
+\begin{block}{Fibonacci}
+Escriba una función que calcule el elemento n de la serie de Fibonacci
+
+\end{block}
+\begin{block}{Conversión de grados centígrados a farenheit}
+Escriba una función que convierta entre temperaturas escritas en grados farenheit y centigrados
+\end{block}
+\begin{block}{Avanzado}
+Escriba una función que calcule el seno de un mu´mero utilizando la expansión de Taylor de la función seno
+
+\end{block}
+
+

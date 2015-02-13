@@ -1,0 +1,70 @@
+\documentclass[colorlinks]{beamer}
+  % compress
+  %\documentclass[handout,xcolot=pdftex,dvipsnames,table]{beamer}
+%\definecolor{mybg}{RGB}{255,255,204}
+\definecolor{mybg}{RGB}{238,255,170}
+\usepackage{minted}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{color}
+\usepackage[utf8x]{inputenc}
+%\usepackage{amsmath}
+%\usepackage{beamerthemesplit}
+%\usemintedstyle{trac}
+\input{format.tex}
+\begin{document}
+\setcounter{tocdepth}{2}
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,subsection]
+  \end{frame}
+}
+\title{ Python in a Nutshell}
+
+
+
+
+
+
+
+\title{ Python in a Nutshell, comments on yesterday session}
+
+\input{header.tex} %
+
+
+\begin{frame}[plain]
+   %  \titlepage
+   \maketitle
+\end{frame}
+
+
+
+
+\begin{frame}{SmallInt}
+\begin{block}{Immutable objects}
+%-------------------------------CODE
+<<term=TRUE,echo=TRUE,fig=FALSE>>=
+a=2
+b=a
+id(a)
+id(b)
+@
+%-------------------------------END CODE
+\end{block}
+\begin{block}{Amazing behavior}
+%-------------------------------CODE
+<<term=TRUE,echo=TRUE,fig=FALSE>>=
+    a=5
+id(a)==id(b)
+a=2
+id(a)==id(b)
+@
+%-------------------------------END CODE
+\end{block}
+\end{frame}
+
+\end{document}

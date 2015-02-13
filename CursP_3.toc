@@ -1,0 +1,30 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Input/Output}{10}{0}{1}
+\beamer@sectionintoc {2}{Statistics}{13}{0}{2}
+\beamer@subsectionintoc {2}{1}{First statistics}{13}{0}{2}
+\beamer@subsectionintoc {2}{2}{Probability Distributions}{17}{0}{2}
+\beamer@subsectionintoc {2}{3}{Density Estimation}{25}{0}{2}
+\beamer@subsectionintoc {2}{4}{Statistical Testing}{31}{0}{2}
+\beamer@sectionintoc {3}{Some Calculus}{39}{0}{3}
+\beamer@subsectionintoc {3}{1}{Linear Algebra}{39}{0}{3}
+\beamer@subsectionintoc {3}{2}{Fast Fourier Transforms}{46}{0}{3}
+\beamer@subsectionintoc {3}{3}{Optimization}{54}{0}{3}
+\beamer@subsectionintoc {3}{4}{Interpolation}{66}{0}{3}
+\beamer@subsectionintoc {3}{5}{Numerical Integration}{70}{0}{3}
+\beamer@subsectionintoc {3}{6}{Signal and Image Processing}{75}{0}{3}
+\beamer@sectionintoc {4}{Storage Schemes and code profiling}{97}{0}{4}
+\beamer@subsectionintoc {4}{1}{Introduction to storage of large data}{97}{0}{4}
+\beamer@subsectionintoc {4}{2}{Storage Schemes}{100}{0}{4}
+\beamer@subsectionintoc {4}{3}{Linear System Solvers}{103}{0}{4}
+\beamer@subsectionintoc {4}{4}{Others}{106}{0}{4}
+\beamer@subsectionintoc {4}{5}{Notes On code optimization and profiling}{107}{0}{4}
+\beamer@subsectionintoc {4}{6}{Profiling your code}{110}{0}{4}
+\beamer@subsectionintoc {4}{7}{Speeding your code}{116}{0}{4}
+\beamer@sectionintoc {5}{SymPy}{122}{0}{5}
+\beamer@subsectionintoc {5}{1}{First Steps with SimPy}{122}{0}{5}
+\beamer@subsectionintoc {5}{2}{Algebraic manipulations}{128}{0}{5}
+\beamer@subsectionintoc {5}{3}{Calculus}{131}{0}{5}
+\beamer@subsectionintoc {5}{4}{Equation solving}{137}{0}{5}
+\beamer@subsectionintoc {5}{5}{Linear Algebra}{140}{0}{5}

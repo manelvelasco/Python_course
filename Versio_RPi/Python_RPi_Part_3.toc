@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Raspberry Pi Foundation}{3}{0}{1}
+\beamer@sectionintoc {2}{RPi Board}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Especificaciones de la RPi}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Accesorios}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{Compatibilidad}{17}{0}{2}
+\beamer@sectionintoc {3}{Instalaci\IeC {\'o}n}{22}{0}{3}
+\beamer@subsectionintoc {3}{1}{SD}{22}{0}{3}
+\beamer@subsectionintoc {3}{2}{NOOBS}{23}{0}{3}
+\beamer@sectionintoc {4}{Aplicaciones}{29}{0}{4}
+\beamer@subsectionintoc {4}{1}{Aplicaciones}{29}{0}{4}
+\beamer@subsectionintoc {4}{2}{Gert Board}{38}{0}{4}
+\beamer@sectionintoc {5}{Demo }{41}{0}{5}

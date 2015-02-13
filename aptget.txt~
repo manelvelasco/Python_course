@@ -1,0 +1,8 @@
+
+sudo apt-get install libatlas-dev libpng12-dev libfreetype6 libfreetype6-dev g++ libzmq-dev liblapack-dev gfortran python-dev build-essential python-qt4   ipython-notebook python-numpy  python-scipy python-sklearn python-scikits-learn python-skimage spyder ipython-qtconsole python-matplotlib python-ipdb reinteract
+python-pygments python-tornado python-pandas mayavi2
+
+
+
+
+

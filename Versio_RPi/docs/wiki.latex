@@ -1,0 +1,894 @@
+\begin{frame}
+
+\textbf{Raspberry Pi} es una \href{placa computadora}{placa computadora}
+(\emph{SBC}) de bajo costo desarrollada en \href{Reino Unido}{Reino
+Unido} por la Fundación Raspberry Pi, con el objetivo de estimular la
+enseñanza de \href{ciencias de la computación}{ciencias de la
+computación} en las escuelas.\footnote{}\footnote{}\footnote{}\footnote{}
+
+El diseño incluye un \href{System on a chip}{System-on-a-chip}
+\url{Broadcom} BCM2835, que contiene un
+\href{unidad central de procesamiento}{procesador central} (CPU)
+\href{Arquitectura ARM}{ARM1176JZF-S} a 700~\url{MHz} (el firmware
+incluye unos modos ``Turbo'' para que el usuario pueda hacerle overclock
+de hasta 1~GHz sin perder la garantía),\footnote{} un
+\href{Unidad de procesamiento gráfico}{procesador gráfico} (GPU)
+\url{VideoCore} IV, y 512~\url{MB} de \href{memoria RAM}{memoria RAM}
+aunque originalmente al ser lanzado eran 256~MB. El diseño no incluye un
+\href{disco duro}{disco duro} o una
+\href{unidad de estado sólido}{unidad de estado sólido}, ya que usa una
+\href{tarjeta SD}{tarjeta SD} para el almacenamiento permanente; tampoco
+incluye \href{fuente de alimentación}{fuente de alimentación} o carcasa.
+El modelo B se vende a 35~\href{Dólar de los Estados Unidos}{\$} y el
+modelo A a 25~\$. El 29 de febrero de 2012 la fundación empezó a aceptar
+órdenes de compra del modelo B, y el 4 de febrero de 2013 del modelo
+A.\footnote{{[}\url{https://twitter.com/}\#!/Raspberry\_Pi/status/174735449967955968
+  Raspberry Pi: We are Live{]} .}\footnote{Richard Lawler, 29 February
+  2012,
+  \href{http://www.engadget.com/2012/02/29/raspberry-pi-credit-card-sized-linux-pcs-are-on-sale-now-25-mo/}{Raspberry
+  Pi credit-card sized Linux PCs are on sale now, \$25 Model A gets a
+  RAM bump}, Engadget}\footnote{}
+
+La fundación da soporte para las descargas de las distribuciones para
+arquitectura ARM, \url{Raspbian} (derivada de \url{Debian}),
+\href{RISC OS}{RISC OS} 5, Arch Linux ARM (derivado de
+\href{Arch Linux}{Arch Linux}) y Pidora (derivado de
+\url{Fedora});\footnote{} y promueve principalmente el aprendizaje del
+\href{lenguaje de programación}{lenguaje de programación}
+\url{Python},\footnote{} y otros lenguajes como \href{Tiny BASIC}{Tiny
+BASIC},\footnote{} \href{C (lenguaje de programación)}{C} y
+\url{Perl}.\footnote{}
+
+\end{frame}
+
+\begin{frame}\frametitle{Historia}
+
+\href{Archivo:Raspberry Pi board at TransferSummit 2011 cropped.jpg}{thumb\textbar{}Placa
+Alpha de pruebas funcionando. Su construcción es diferente de las
+posteriores placas Beta y finales}
+
+En 2006, los primeros diseños de Raspberry Pi se basaban en el
+\url{microcontrolador} \url{Atmel} \href{AVR}{ATmega644}. Sus esquemas y
+el diseño del \href{circuito impreso}{circuito impreso} están
+disponibles para su descarga pública.\footnote{}
+
+En mayo de 2009, la Fundación Raspberry Pi fue fundada en
+\url{Caldecote}, \href{South Cambridgeshire}{South Cambridgeshire},
+\href{Reino Unido}{Reino Unido} como una asociación caritativa que es
+regulada por la Comisión de Caridad de Inglaterra y Gales.\footnote{}
+
+El administrador de la fundación, Eben Upton, se puso en contacto con un
+grupo de profesores, académicos y entusiastas de la informática para
+crear un ordenador con la intención de animar a los niños a aprender
+informática como lo hizo en 1981 el ordenador \url{Acorn}
+\href{BBC Micro}{BBC Micro}.\footnote{}\footnote{} El primer
+\url{prototipo} basado en \href{Arquitectura ARM}{ARM} se montó en un
+módulo del mismo tamaño que una \href{memoria USB}{memoria USB}. Tenía
+un puerto \url{USB} en un extremo y un puerto \url{HDMI} en el
+otro.\footnote{}
+
+\begin{block}{Pre-lanzamiento}
+
+En agosto de 2011, se fabricaron cincuenta placas
+\href{Fases del desarrollo de software\#Alpha_.2F_Alfa}{Alpha}, que
+tenían las mismas características que el modelo B,\footnote{} pero eran
+un poco más grandes para integrar bien unas
+\href{Interfaz (electrónica)}{interfaces} para depuración. En algunas
+demostraciones se podía ver la placa ejecutando el escritorio \url{LXDE}
+en \url{Debian}, \href{Quake 3}{Quake 3} a 1080p\footnote{} y vídeo
+\href{Full HD}{Full HD} \url{H.264} a través de la salida
+HDMI.\footnote{}.
+
+En octubre de 2011, el \url{logotipo} se seleccionó entre varios diseños
+enviados por miembros de la comunidad. Durante el mismo mes, se trabajó
+en una versión de desarrollo de \href{RISC OS}{RISC OS 5}\footnote{} y
+se hizo una demostración en público.\footnote{}
+
+\href{Archivo:Initial Raspberry Pi no.7 certificate of authenticity.jpg}{thumb\textbar{}Certificado
+de autenticidad de una placa subastada}
+
+En diciembre de 2011, 25 placas Beta del modelo B fueron ensambladas y
+probadas de un total de 100 placas vacías.\footnote{\href{http://www.raspberrypi.org/forum/general-discussion/what-happened-to-the-beta-boards}{What
+  happened to the beta boards?} Dom Cobley (4 February 2012)}\footnote{\href{http://www.raspberrypi.org/archives/389}{We
+  have PCBs!} \emph{(Raspberry Pi Blog)}} El diagrama de componentes de
+las placas finales sería el mismo que el de esas placas Beta. Durante
+las pruebas a las placas beta se encontró un error de diseño en los
+pines que suministraban alimentación a la CPU que sería arreglado en la
+versión final.\footnote{\href{http://www.raspberrypi.org/archives/470}{More
+  on the beta boards} \emph{(Raspberry Pi Blog)}} Se hizo una
+demostración de la placa beta arrancando Linux, reproduciendo un
+\url{tráiler} de una película a 1080p y ejecutando el \url{benchmark}
+\emph{Rightware Samurai \href{OpenGL ES}{OpenGL ES}}.\footnote{\href{http://www.raspberrypi.org/archives/431}{Bringing
+  up a beta board} \emph{(Raspberry Pi Blog)}}
+
+Durante la primera semana de diciembre de 2011, se pusieron a subasta
+diez placas en \url{eBay}.\footnote{}\footnote{} Una de ellas fue
+comprada por una persona anónima y se donó al Centro para la Historía de
+la informática en \url{Suffolk}, Inglaterra.\footnote{}\footnote{} En
+total se consiguieron 16,336~\href{Libra esterlina}{£}.\footnote{} La
+última placa, con número de serie No. 01 se vendió por
+3.500~£.\footnote{}
+
+Debido al anticipado anuncio de puesta a la venta a final de febrero de
+2012, la fundación sufrió colapso en sus
+\href{servidores web}{servidores web} debido a los refrescos de páginas
+desde los \href{Navegador web}{navegadores} de gente interesada en la
+compra de la placa.\footnote{}
+
+\end{block}
+
+\begin{block}{Lanzamiento}
+
+El primer lote de 10.000 placas se fabricó en \url{Taiwan} y
+\url{China},\footnote{}\footnote{} en vez de Reino Unido. Esto fue en
+parte porque los \url{impuestos} de importación se pagan para los
+componentes individuales pero no para productos acabados, y porque los
+fabricantes chinos ofrecían un plazo de entrega de 4 semanas y en el
+Reino Unido de 12. Con este ahorro conseguido, la fundación podía
+invertir más dinero en investigación y desarrollo.\footnote{}
+
+Las primeras ventas comenzaron el 29 de febrero de 2012 a las 06:00
+UTC;\footnote{} al mismo tiempo se anunció que el modelo A, que
+originalmente iba a tener 128~MB de RAM, tendría 256~MB.\footnote{} La
+página de la fundación también anunció que ``Seis años después del
+origen del proyecto, estamos cerca de finalizar el primer arranque del
+proyecto - aunque esto es solo el principio de la historia de Raspberry
+Pi''.\footnote{} Por otro lado las dos tiendas que vendían las placas,
+\href{Premier Farnell}{Premier Farnell} y \href{RS Components}{RS
+Components}, tuvieron una gran carga en sus servidores inmediatamente
+después del lanzamiento.\footnote{} La cuenta oficial de Raspberry Pi en
+\url{Twitter} informó que Premier Farnell vendió toda su existencia de
+inventario a los pocos minutos del momento de lanzamiento, mientras que
+RS Components tuvo 100.000 peticiones de interés el primer
+día.\footnote{} En los seis meses siguientes llegarían a vender 500.000
+unidades.\footnote{}
+
+\end{block}
+
+\begin{block}{Post-lanzamiento}
+
+Durante marzo de 2012 se anunciaron futuros retrasos en los envíos, a
+causa del ensamblaje de un puerto \url{ethernet} incorrecto.\footnote{}\footnote{}
+Por otro lado, la fundación esperaba que se pudiera aumentar la
+fabricación de unidades en los lotes futuros, si fuera
+necesario.\footnote{}
+
+El 16 de abril de 2012 los primeros compradores empezaron a informar que
+habían recibido su Raspberry Pi.\footnote{}\footnote{} El 22 de mayo de
+2012 más de 20.000 unidades habían sido enviadas.\footnote{} El 16 de
+julio se anunció que se fabricarían 4.000 unidades cada día, permitiendo
+ser compradas las placas en lotes.\footnote{}\footnote{} El 5 de
+septiembre la fundación anunció una segunda revisión del modelo
+B.\footnote{} El 6 de septiembre se anunció que se llevaría la
+producción de placas al Reino Unido, a una fábrica de \url{Sony} en
+\url{Pencoed}, \url{Gales}, y que en ella se producirían 30.000 unidades
+cada mes, y se crearían 30 nuevos puestos de trabajo.\footnote{}\footnote{}
+En octubre de 2012, se informó que clientes que habían hecho su pedido a
+través del distribuidor RS Components, llevaban esperando hasta seis
+meses en recibir sus pedidos, a causa de dificultades en la provisión de
+CPUs y una conservadora política de previsión de ventas.\footnote{}
+
+El 4 de febrero de 2013, se lanzó el modelo A, pero debido a temas
+\href{burocracia}{burocráticos} los principales proveedores sólo lo
+pudieron poner a la venta ese día en Europa.\footnote{}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}\frametitle{Hardware}
+
+\href{Archivo:Raspberrypi pcb overview v04.svg}{thumb\textbar{}Localización
+de cada uno de los componentes de la placa modelo B}
+
+Las ventas iniciales fueron del modelo B. El modelo A solo tiene un
+puerto \url{USB}, carece de controlador \url{Ethernet} y cuesta menos
+que el modelo B, el cual tiene dos puertos USB y controlador Ethernet
+10/100.\footnote{}
+
+A pesar que el Modelo A no tiene un puerto \url{RJ45}, se puede conectar
+a una red usando un adaptador USB-Ethernet suministrado por el usuario.
+Por otro lado, a ambos modelos se puede conectar un adaptador
+\url{Wi-Fi} por USB, para tener acceso a redes inalámbricas o internet.
+El sistema cuenta con 256 MB de memoria RAM en su modelo A, y con 512 MB
+de memoria RAM en su modelo B. Como es típico en los ordenadores
+modernos, se pueden usar teclados y ratones con conexión USB compatible
+con Raspberry Pi.\footnote{}
+
+El Raspberry Pi no viene con \href{reloj en tiempo real}{reloj en tiempo
+real},\footnote{} por lo que el \href{sistema operativo}{sistema
+operativo} debe usar un servidor de hora en red, o pedir al usuario la
+hora en el momento de arrancar el ordenador. Sin embargo se podría
+añadir un reloj en tiempo real (como el DS1307) con una batería mediante
+el uso de la interface I²C.
+
+Los esquemas del modelo A y el modelo B fueron lanzados el 20 de abril
+de 2012 por la fundación.\footnote{}
+
+La \href{aceleración por hardware}{aceleración por hardware} para la
+codificación de vídeo (\url{H.264}) se hizo disponible el 24 de agosto
+de 2012, cuando se informó que la licencia permitiría su uso
+gratuitamente; antes se pensó en anunciarlo cuando se lanzara el modulo
+de cámara.\footnote{\href{http://www.raspberrypi.org/phpBB3/viewtopic.php?f=7\&t=2886}{raspberrypi.org
+  -- Hardware-assisted H.264 video encoding}, 2012-02-07}\footnote{}
+También se puso a la venta la capacidad para poder usar el
+\href{codec}{codificación-decodificación} de \url{MPEG-2} y
+\href{VC-1}{Microsoft VC-1}. Por otro lado se hizo saber que el
+ordenador soportaría
+\href{High-Definition_Multimedia_Interface\#Canal_CEC_.28Consumer_Electronics_Control.29_.28opcional.29}{CEC},
+permitiendo que pudiera ser controlado mediante un
+\href{mando a distancia}{mando a distancia} de
+\url{televisión}.\footnote{}
+
+El 5 de septiembre de 2012, se anunció una revisión 2.0 de la placa, que
+ofrecía un pequeño número de correcciones y mejoras, como unos agujeros
+de montaje, un circuito para hacer \url{reset}, soporte para depuración
+\url{JTAG}, etc.\footnote{}
+
+El 15 de octubre de 2012, la fundación anunció que todos los Raspberry
+Pi Modelo B serían enviados a partir de ese momento con 512~MB de RAM en
+vez de 256~MB.\footnote{}
+
+\end{frame}
+
+\begin{frame}\frametitle{Especificaciones técnicas}
+
+\href{Archivo:Raspberrypi block function v01.svg}{thumb\textbar{}Diagrama
+de bloques del modelo B, en el Modelo A el puerto USB está conectado
+directamente al SoC}
+
+\begin{longtable}[c]{@{}lll@{}}
+\hline\noalign{\medskip}
+& Modelo A & Modelo B
+\\\noalign{\medskip}
+\hline\noalign{\medskip}
+Precio:\footnotemark & \${]}{]}25 & \$35
+\\\noalign{\medskip}
+SoC{]}{]}:\footnotemark & \url{Broadcom} BCM2835 (\url{CPU} + \url{GPU}
++ \href{Procesamiento digital de señales}{DSP} + \url{SDRAM} + puerto
+\url{USB})\footnotemark
+\\\noalign{\medskip}
+CPU: & \href{Arquitectura ARM}{ARM1176JZF-S} a 700~MHz (familia
+ARM11)\footnotemark
+\\\noalign{\medskip}
+GPU: & Broadcom \url{VideoCore} IV,\footnotemark , OpenGL ES 2.0, -2 y
+VC-1 (con licencia),\footnotemark 1080p30
+\href{H.264/MPEG-4 AVC}{H.264/MPEG-4 AVC}\footnotemark
+\\\noalign{\medskip}
+Memoria (SDRAM): & 256 \url{MB} (compartidos con la GPU) & 512 MB
+(compartidos con la GPU)\footnotemark desde el 15 de octubre de 2012
+\\\noalign{\medskip}
+url=\url{http://elinux.org/RaspberryPiBoardVerifiedPeripherals}
+\textbar{}título=Verified USB Peripherals and SDHC Cards;
+\textbar{}publisher=Elinux.org \textbar{}fechaacceso=06-05-2012\}\} & 1
+& url=\url{http://www.smsc.com/index.php?tid=300\&pid=135}
+\textbar{}título=SMSC LAN9512 Website; \textbar{}publisher=Smsc.com
+\textbar{}fechaacceso=06-05-2012\}\}
+\\\noalign{\medskip}
+\\\noalign{\medskip}
+Entradas de vídeo:\footnotemark & Conector {[}{[}MIPI{]}
+\href{CSI (interfaz)}{CSI} que permite instalar un módulo de camara
+desarrollado por la RPF
+\\\noalign{\medskip}
+Salidas de vídeo:\footnotemark & \href{Conector RCA}{Conector RCA} (PAL
+y NTSC), \url{HDMI} (rev1.3 y 1.4),\footnotemark Interfaz
+\href{DSI (interfaz)}{DSI} para panel LCD\footnotemark \footnotemark
+\\\noalign{\medskip}
+Salidas de audio:\footnotemark & \href{Jack (conector)}{Conector} de 3.5
+mm, HDMI
+\\\noalign{\medskip}
+Almacenamiento integrado: & \href{Tarjeta SD}{SD} /
+\href{MultiMediaCard}{MMC} / ranura para \url{SDIO}
+\\\noalign{\medskip}
+Conectividad de red:\footnotemark & Ninguna & 10/100 \url{Ethernet}
+(\url{RJ-45}) via hub USB\footnotemark
+\\\noalign{\medskip}
+Periféricos de bajo nivel: &
+8~x~\href{General Purpose Input/Output}{GPIO},
+\href{Serial Peripheral Interface}{SPI}, \url{I²C},
+\href{Universal Asynchronous Receiver-Transmitter}{UART}\footnotemark
+\\\noalign{\medskip}
+\href{Reloj en tiempo real}{Reloj en tiempo real}:\footnotemark &
+Ninguno
+\\\noalign{\medskip}
+Consumo energético: & W{]}{]})\footnotemark & 700~mA, (3.5 W)
+\\\noalign{\medskip}
+Fuente de alimentación:\footnotemark & 5~V vía \href{Micro USB}{Micro
+USB} o GPIO header
+\\\noalign{\medskip}
+Dimensiones: & 85.60mm × 53.98mm\footnotemark (3.370 × 2.125 inch)
+\\\noalign{\medskip}
+Sistemas operativos{]}{]} soportados: & GNU/Linux: \url{Debian}
+(\url{Raspbian}), \href{Fedora (distribución Linux)}{Fedora} (Pidora),
+\href{Arch Linux}{Arch Linux} (Arch Linux
+ARM),\href{Slackware Linux}{Slackware Linux}. \href{RISC OS}{RISC
+OS}\footnotemark
+\\\noalign{\medskip}
+\hline
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{}
+\footnotetext{\href{http://www.raspberrypi.org/archives/344}{Final PCB
+  artwork}}
+\footnotetext{}
+\end{longtable}
+
+\begin{description}
+\itemsep1pt\parskip0pt\parsep0pt
+\item[Notas:]
+\end{description}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  ``Modelo A'' y ``Modelo B'' son referencias culturales\footnote{} a
+  los modelos originales del ordenador educacional
+  \href{Reino Unido}{británico} \href{BBC Micro}{BBC Micro},
+  desarrollado por \href{Acorn Computers}{Acorn Computers}, quien
+  originalmente desarrolló la familia de procesadores
+  \href{Arquitectura ARM}{ARM} (arquitectura de procesador del Raspberry
+  Pi) y el sistema operativo RISC OS 5, el cual es capaz de funcionar en
+  Raspberry Pi (revisión 5.17).\footnote{}
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  En las antiguas placas Beta del modelo B, 128~MB de memoria RAM eran
+  asignados por defecto a la GPU, y se dejaba 128~MB para la
+  CPU.\footnote{} En la primera remesa de placas lanzadas al mercado del
+  modelo B (y modelo A), se puede
+  \href{Particionado del espacio}{particionar} la RAM de tres formas
+  diferentes. Por defecto se usarían 192~MB de RAM para la CPU, lo cual
+  sería suficiente para la decodificación única de vídeo en 1080p, o
+  para \url{renderizado} \url{3D} sencillo, pero probablemente no para
+  ambos. Usar el tipo de partición que ofrece 224~MB de RAM para la CPU
+  sería recomendable para usar en Linux solamente, con sólo un
+  framebuffer a 1080p, lo que daría error para cualquier tipo de vídeo o
+  renderizado 3D. En cambio 128~MB de RAM para la CPU y la GPU sería lo
+  recomendable para uso intensivo de 3D y descodificación de vídeo (por
+  ejemplo en el uso de XBMC).\footnote{\href{http://www.raspberrypi.org/forum/general-discussion/config-txt/page-3}{Raspberry
+    Pi boot configuration text file}} En comparación el Nokia 701 usa
+  128~MB para la GPU Broadcom Videocore IV.\footnote{} Para el modelo B
+  de 512~MB de RAM hay nuevos tipos para particionar la memoria
+  (arm256\_start.elf, arm384\_start.elf, arm496\_start.elf) para 256~MB,
+  384~MB y 496~MB de RAM para la CPU (y 256~MB, 128~MB y 16~MB para la
+  GPU) aunque otras configuraciones son posibles.
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  La \href{Caché (informática)}{caché} de nivel 2 es de 128kB, y es
+  usada principalmente por la GPU, no por la CPU.
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  La CPU esta basada en la versión 6 de la arquitectura ARM, la cual no
+  es soportada por una gran cantidad de distribuciones Linux, incluyendo
+  \url{Ubuntu}.
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  La placa también dispone de una puerto \url{MIPI}
+  \href{CSI (interfaz)}{CSI} de 15 pins, en el cual se puede poner una
+  cámara que ha sido desarrollada por la fundación.\footnote{}\footnote{}
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  A la placa se le puede incorporar un panel LCD mediante el puerto MIPI
+  \url{DSI}, la fundación aún no le da soporte.\footnote{}
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Las resoluciones soportadas mediante vídeo digital son: 640~×~350
+  \url{EGA}; 640~×~480 \url{VGA}; 800~×~600 \url{SVGA}; 1024~×~768
+  \url{XGA}; 1280~×~720 720p \url{HDTV}; 1280~×~768 \url{WXGA} variante;
+  1280~×~800 WXGA variante; 1280~×~024 \url{SXGA}; 1366~×~768 WXGA
+  variante; 1400~×~1050 SXGA+; 1600~×~1200 \url{UXGA}; 1680~×~1050
+  \url{WXGA+}; 1920~×~1080 1080p HDTV y 1920~×~1200
+  \url{WUXGA}.\footnote{}También es posible generar
+  \href{vídeo compuesto}{vídeo compuesto} con señales de \url{576i} y
+  \url{480i} para \url{PAL}-BGHID, PAL-M, PAL-N, \url{NTSC} and
+  \url{NTSC-J}.\footnote{}
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Originalmente los puertos USB integrados se diseñaron para solo ser
+  capaces de dar una corriente máxima de 100~mA. Los dispositivos que
+  necesitaran más de 100mA de corriente eran incompatibles con el
+  Raspberry Pi, a no ser que se usara un HUB USB con alimentación
+  propia. Más adelante debido a comentarios de usuarios, la fundación a
+  finales de agosto eliminó los polifusibles USB que provocaban este
+  comportamiento. Sin embargo la corriente máxima que puede ser enviada
+  al puerto USB en estas placas modificadas está limitada por la
+  capacidad del transformador eléctrico usado, y el polifusible general
+  de 1,1~A.\footnote{}
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Desde 28-10-2012-wheezy-Raspbian, las nuevas versiones del firmware
+  tienen la opción de elegir entre cinco preconfiguraciones de overclock
+  (modo turbo), que hacen que el SoC de más rendimiento sin reducir el
+  tiempo de vida de la placa y sin perder la garantía. Esto se hace
+  monitorizando la temperatura del núcleo del chip y la carga de la CPU,
+  ajustando dinámicamente la frecuencia de reloj y el voltaje del
+  núcleo. Así cuando hay poca carga o se calienta demasiado la CPU, el
+  rendimiento se hace disminuir, pero cuando la carga aumenta y si la
+  temperatura lo permite, se aumenta el rendimiento, siendo posible
+  aumentar la frecuencia hasta 1~Ghz, según la calidad de la placa y que
+  preconfiguración está siendo usada. Las cinco posibles
+  preconfiguraciones son:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    ``None'': 700 MHz ARM, 250 MHz core, 400 MHz \url{SDRAM}, 0
+    sobrevoltaje.
+  \item
+    ``Modest'': 800 MHz ARM, 250 MHz core, 400 MHz SDRAM, 0
+    sobrevoltaje.
+  \item
+    ``Medium'': 900 MHz ARM, 250 MHz core, 450 MHz SDRAM, 2
+    sobrevoltaje.
+  \item
+    ``High'': 950 MHz ARM, 250 MHz core, 450 MHz SDRAM, 6 sobrevoltaje.
+  \item
+    "Turbo''': 1000 MHz ARM, 500 MHz core, 600 MHz SDRAM, 6
+    sobrevoltaje.\footnote{}\footnote{}
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}\frametitle{Software}
+
+\includegraphics{Raspbian screenshot.png}
+
+El Raspberry Pi usa mayoritariamente sistemas operativos basados en el
+núcleo Linux. \url{Raspbian}, una distribución derivada de Debian que
+está optimizada para el hardware de Raspberry Pi, se lanzó durante julio
+de 2012 y es la distribución recomendada por la fundación para
+iniciarse.\footnote{}
+
+\url{Slackware} ARM (también llamada ARMedslack) versión 13.37 y
+posteriores arranca sin ninguna modificación.\footnote{\href{http://www.raspberrypi.org/phpBB3/viewtopic.php?f=2\&t=6103}{raspberrypi.org
+  -- ArmedSlack working :)}, 2012-05-18}\footnote{\href{http://groups.google.com/group/alt.os.linux.slackware/browse_thread/thread/85f8c15cdab99e2f}{alt.os.linux.slackware
+  -- ARMed Slack running on Raspberry Pi}, 2012-05-10}\footnote{\href{http://www.raspberrypi.org/phpBB3/viewtopic.php?f=56\&t=6132\&hilit=armedslack}{raspberrypi.org
+  -- ArmedSlack 13.37}, 2012-05-19} Los 128-496~MB de memoria RAM
+disponible en la Raspberry Pi, cubren los necesarios 64~MB de RAM para
+arrancar esta distribución en sistemas ARM y \url{i386} sin usar
+\href{interfaz gráfica}{interfaz gráfica} (el administrador de ventanas
+\url{Fluxbox} que funciona bajo \href{X Window System}{X Window System}
+requiere 48~MB de memoria RAM adicional).\footnote{}\footnote{} Por otro
+lado, se están creando distribuciones más específicas y ligeras como
+IPfire (distribución para ser usada como \url{firewall}),\footnote{} o
+\url{OpenELEC} y \url{Raspbmc} (distribuciones con el
+\href{centro multimedia}{centro multimedia} \url{XBMC}).\footnote{}\footnote{}
+
+A la GPU se accede mediante una imagen del \url{firmware} de
+\href{código cerrado}{código cerrado}, llamado \href{blob binario}{blob
+binario}, que se carga dentro de la GPU al arrancar desde la tarjeta SD.
+El blob binario está asociado a los \url{drivers} Linux que también son
+de código cerrado. Las aplicaciones hacen llamadas a las
+\href{Biblioteca (informática)}{librerías} de
+\href{tiempo de ejecución}{tiempo de ejecución} que son de
+\href{código abierto}{código abierto}, y estas librerías hacen llamadas
+a unos drivers de código abierto en el \url{kernel} de Linux. La
+\url{API} del driver del kernel es específica para estas librerías. Las
+aplicaciones que usan vídeo hacen uso de \url{OpenMAX}, las aplicaciones
+3D usan OpenGL ES y las aplicaciones 2D usan \url{OpenVG}; OpenGL ES y
+OpenVG hacen uso de \url{EGL} y éste último, del driver de código
+abierto del kernel.\footnote{}
+
+El 19 de febrero de 2012, la fundación lanzó un prototipo de
+\href{Imagen ISO}{imagen} de tarjeta SD que almacenaba un sistema
+operativo y que podía ser cargado en una tarjeta SD. La imagen se basaba
+en Debian 6.0 (Squezze), con el escritorio LXDE y el navegador
+\url{Midori}, más algunas
+\href{herramientas de programación}{herramientas de programación}. La
+imagen funcionaba bajo \url{QEMU} permitiendo que el Raspberry Pi
+pudiera ser \href{Emulación}{emulado} en otros sistemas.\footnote{}
+
+El 8 de marzo de 2012, la fundación lanzó Raspberry Pi Fedora Remix
+(actualmente llamada Pidora), que en el momento de era la distribución
+recomendada por la fundación,\footnote{} y fue desarrollada en la
+universidad de Séneca, en Canadá.\footnote{} También se propuso crear
+una tienda de aplicaciones para que la gente intercambiara
+programas.\footnote{}
+
+El 24 de octubre de 2012, Alex Bradbury, director de desarrollo Linux de
+la fundación, anunció que todo el código del driver de la GPU Videocore
+que se ejecuta en ARM sería de código abierto, mediante
+\href{Licencia_BSD\#Nueva_Licencia_BSD_o_BSD_modificada_.28de_3_cl.C3.A1usulas.29}{licencia
+BSD modificada de 3 clausulas}. El código fuente está disponible en un
+\url{repositorio} de la fundación en \url{GitHub}.\footnote{\href{http://www.raspberrypi.org/archives/2221}{Open
+  Source ARM userland}}
+
+El 5 de noviembre de 2012, Eben Upton anunció el lanzamiento del sistema
+operativo RISC OS 5 para Raspberry Pi a la comunidad, pudiéndose
+descargar la imagen de forma gratuita desde la web de la
+fundación.\footnote{} Su relación con la comunidad RISC OS se remontaba
+a julio de 2011, cuando habló en ella de una hipotética
+versión.\footnote{} El sistema operativo incluye una gran cantidad de
+aplicaciones como \emph{!NetSurf} para la navegación web,
+\emph{!StrongED} para editar texto, \emph{!Maestro} para editar música,
+\emph{!Packman} para la gestión de paquetes o una tienda de aplicaciones
+llamada \emph{!Store} donde se puede encontrar aplicaciones gratuitas o
+de pago. Además se incluyen manuales para crear aplicaciones en
+\url{BASIC} para el sistema operativo.
+
+El 24 de noviembre de 2012, se anunció en la \url{Minecon} de
+\url{París}, el juego \emph{Minecraft: Pi Edition} para Raspberry Pi,
+basado en la versión \emph{Minecraft: Pocket Edition} para
+\href{teléfonos inteligentes}{teléfonos inteligentes} y
+\url{tabletas}.\footnote{} La descarga se hizo disponible de forma
+oficial y gratuita por primera vez el 12 de febrero de 2013 desde el
+\url{blog} del juego, como versión 0.1.1 alpha, junto a instrucciones
+para ejecutarlo en Raspbian Wheezy. Una de las características
+principales de este lanzamiento es poder interaccionar con el juego
+mediante programación, con la intención de motivar a los niños a
+aprender a programar.\footnote{\{\{cita web \textbar{}
+  url=\url{http://pi.minecraft.net/?p=68} \textbar{} título=Download Pi
+  Edition now! \textbar{} editorial=\url{http://pi.minecraft.net/}
+  \textbar{} fecha=12-02-2013 \textbar{} fechaacceso=12-02-2013}
+
+El 25 de mayo de 2013, la fundación informó de que se estaba trabajando
+en una versión del servidor gráfico
+\href{Wayland (servidor gráfico)}{Wayland} para Raspberry Pi, para
+sustituir a \href{X Windows}{X Windows}. Con este cambio se lograría
+suavidad al usar la \href{interfaz gráfica}{interfaz gráfica} del
+escritorio, ya que el procesamiento lo realizaría la GPU Videocore y no
+la CPU, sin interferir en el renderizado 3D.\footnote{}
+
+El 3 de junio de 2013, fue lanzado en la la web de la fundación para su
+descarga la aplicación NOOBS (New Out of Box Software), utilidad que
+facilita la instalación de diferentes sistemas operativos para Raspberry
+Pi. Se distribuye en forma de archivo \url{zip} que se copia
+descomprimido a una tarjeta SD de 4 GB o superior, y una vez arrancada
+la placa con la tarjeta por primera vez, aparece un menú en que se da la
+opción de instalar una de las diferentes distribuciones en el espacio
+libre de la tarjeta de memoria, o acceder a internet con el navegador
+\url{Arora} integrado. Más adelante si se desea, es posible acceder a
+este menú apretando la \href{tecla shift}{tecla shift} durante el
+arranque para reinstalar el sistema operativo, elegir otro, o editar el
+archivo config.txt. NOOBS contiene las distribuciones Linux de carácter
+general Raspbian, Arch Linux ARM y Pidora; las distribuciones Linux para
+mediacenter con \url{XBMC} Openelec y RaspBMC; y el sistema operativo
+Risc OS 5.\footnote{}
+
+\begin{block}{Sistemas operativos}
+
+Esta es una lista de sistemas operativos que funcionan, se han portado,
+o están en proceso de ser portados a Raspberry Pi:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \textbf{Sistemas operativos completos:}
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    \url{AROS}
+  \item
+    \url{Linux}
+
+    \begin{itemize}
+    \itemsep1pt\parskip0pt\parsep0pt
+    \item
+      \url{Android}\footnote{}
+    \item
+      \href{Arch Linux}{Arch Linux} ARM
+    \item
+      \url{Debian} Whezzy Soft-Float, versión de Debian sin soporte para
+      \href{coma flotante}{coma flotante} por \url{hardware}
+    \item
+      \href{Firefox OS}{Firefox OS}
+    \item
+      \href{Gentoo Linux}{Gentoo Linux}\footnote{}
+    \item
+      \href{Google Chromium OS}{Google Chromium OS}
+    \item
+      Open \url{webOS}\footnote{}
+    \item
+      \href{PiBang Linux}{PiBang Linux}\footnote{}, distribución Linux
+      derivada de Raspbian con diferente escritorio y aplicaciones
+    \item
+      \url{Pidora}, versión \href{Fedora (distribución Linux)}{Fedora}
+      Remix optimizada\footnote{}
+    \item
+      QtonPi, distribución linux con un framework de aplicaciones
+      multiplataforma basado en Qt framework
+    \item
+      \url{Raspbian}\footnote{}, versión de Debian Wheezy para ARMv6 con
+      soporte para coma flotante por hardware
+    \item
+      \url{Slackware} ARM, también conocida como ARMedslack
+    \end{itemize}
+  \item
+    \href{Plan 9 from Bell Labs}{Plan 9 from Bell Labs}\footnote{}\footnote{\href{http://www.raspberrypi.org/archives/2665}{Plan
+      9 announcement}}
+  \item
+    \href{RISC OS}{RISC OS} 5\footnote{}
+  \item
+    \url{Unix}
+
+    \begin{itemize}
+    \itemsep1pt\parskip0pt\parsep0pt
+    \item
+      \url{FreeBSD}\footnote{}
+    \item
+      \url{NetBSD}\footnote{}\footnote{}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \textbf{Distribuciones ligeras multipropósito:}
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Moebius, distribución ligera ARM HF basada en Debian que usa el
+    repositorio de Raspbian y que cabe en una tarjeta SD de 1GB, usa
+    pocos servicios y está optimizada para usar poca memoria.
+  \item
+    Squeezed Arm Puppy, una versión de \href{Puppy Linux}{Puppy Linux}
+    (Puppi) para ARMv6 (sap6) específicamente para Raspberry
+    Pi.\footnote{}
+  \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \textbf{Distribuciones ligeras de único propósito:}
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    \href{Instant WebKiosk}{Instant WebKiosk}, sistema operativo con
+    solo un navegador
+  \item
+    \url{IPFire}
+  \item
+    \url{OpenELEC}
+  \item
+    \url{Raspbmc}
+  \item
+    \url{Xbian}
+  \end{itemize}
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}\frametitle{Accesorios}
+
+En mayo de 2012, la fundación informó acerca de que se estaba
+experimentando con un módulo de cámara, el prototipo usaba un sensor de
+14 \url{megapixels}.\footnote{}\footnote{} En noviembre del mismo año,
+se presentó el prototipo final en la \href{Feria de muestras}{feria}
+Electrónica 2012 en \url{Munich}, y se dio a conocer que el sensor sería
+de 5 \url{megapixels} y que podría grabar vídeo a 1080p H.264 a 30
+\href{fotogramas por segundo}{fotogramas por segundo}.\footnote{}
+Finalmente el módulo se puso a la venta el 14 de mayo de 2013 en los
+principales proveedores. Para poder hacer uso de él, se tiene que
+activar en el menú raspi-config de Raspbian.\footnote{}
+
+Periféricos y carcasas son comercializados por empresas ajenas a la
+fundación.\footnote{} Por ejemplo la \url{Gertboard}, que ha sido creada
+con propósito educativo, sirve para hacer uso del puerto \url{GPIO} y
+poder interaccionar con \href{Led}{LEDs}, interruptores,
+\href{Señal analógica}{señales analógicas}, \url{sensores}, y otros
+dispositivos. También incluye un controlador opcional para \url{Arduino}
+para poder interaccionar con el Raspberry Pi.\footnote{}
+
+\end{frame}
+
+\begin{frame}\frametitle{Comunidad}
+
+La comunidad de Raspberry Pi fue descrita por Jamie Ayre de la compañía
+AdaCore ligada a \url{FLOSS} como una de las partes más excitantes del
+proyecto.\footnote{} El \url{blogger} de la comunidad Russell Davis,
+dijo que gracias a la fuerza de la comunidad, la fundación puede
+concentrarse en la documentación y la enseñanza.\footnote{}
+
+Una serie de eventos llamados Raspberry Jam, dirigidos por Alan
+O'Donohoe han sido organizados en el Reino Unido,\footnote{}\footnote{}\footnote{}
+y en otras partes del mundo,\footnote{} para involucrar a la gente con
+la comunidad.
+
+Desde mayo de 2012 es publicada mensualmente una \url{revista} gratuita
+llamada \href{http://www.themagpi.com/es/}{\emph{MagPi}}, que se dedica
+divulgar información acerca del Raspberry Pi, e incluye proyectos que se
+pueden desarrollar con él y cursos de programación de diferentes
+\href{Lenguaje de programación}{lenguajes}. Es publicada mediante
+licencia \href{Creative Commons}{Creative Commons} BY-SA-NC.\footnote{\href{http://thedigitallifestyle.com/w/index.php/2012/05/06/the-magpi-raspberry-pi-online-magazine-launched/}{The
+  MagPi -- Raspberry Pi online magazine launched}, The Digital
+  Lifestyle.com}
+
+El 2 de agosto de 2012, se añadió al \href{Foro (Internet)}{foro}
+oficial de la fundación los subforos en
+\href{Español (idioma)}{español}, \url{portugués} y
+\href{Alemán (idioma)}{alemán} (el de \url{francés} ya llevaba tiempo
+creado).\footnote{\href{http://www.raspberrypi.org/archives/1715}{1}
+  \textbar{} título = New subforums for German, Spanish and Portuguese
+  speakers \textbar{} fecha=02-08-2012 \textbar{} fechaacceso=09-11-2012
+  \textbar{} autor=Liz Upton}
+
+El 17 de diciembre de 2012, junto a la versión
+2012-12-16-wheezy-raspbian de Raspbian, se lanzó la
+\href{tienda de aplicaciones}{tienda de aplicaciones} ``Pi Store'', que
+en el momento de salida incluía desde aplicaciones como
+\url{LibreOffice} o \url{Asterisk} a juegos como \url{Freeciv} o
+\url{OpenTTD}. En esta plataforma se puede poner a disposición de todos
+los usuarios de Raspbian, mediante moderación y posterior lanzamiento,
+contenidos gratuitos o de pago, como \href{archivos binarios}{archivos
+binarios}, \href{código python}{código python}, imágenes, audio o vídeo.
+Además se quiere incluir documentación acerca del Raspberry Pi como la
+revista \emph{MagPi} y \href{Tutorial}{tutoriales} de
+proyectos.\footnote{}
+
+\end{frame}
+
+\begin{frame}\frametitle{Recepción e influencia}
+
+\href{Archivo:Raspberries05.jpg}{thumb\textbar{}El logotipo de la
+fundación Raspberry Pi es una frambuesa}
+
+El escritor sobre tecnología, Glyn Moody, describió el proyecto en mayo
+de 2011 como un ``potencial BBC Micro 2.0'', no para reemplazar a los
+\href{ordenadores personales}{ordenadores personales} sino como algo
+suplementario.\footnote{} Alex Hope, coautor de Next Gen Report, sentía
+esperanzas de que el Raspberry Pi animaría a los niños a aprender a
+programar, en vez de a usar aplicaciones ya creadas.\footnote{} El
+coautor Ian Livingstone sugirió que la BBC podría involucrarse en el
+proyecto, con la posibilidad de hacerlo llamar ``BBC Nano''.\footnote{}
+Chris Williams que escribe en The Register, ve la inclusión de lenguajes
+de programación como Kids Ruby, Scratch y Basic como un ``buen
+comienzo'' para dar a los niños habilidades que necesitarán en el
+futuro, pero que habrá que ver cómo de efectivo será su uso.\footnote{}
+El Centro de la historia de la computación da un fuerte apoyo al
+proyecto y sugiere que podría ``marcar el comienzo de una nueva
+era''.\footnote{} Antes del lanzamiento del Raspberry Pi, la placa fue
+mostrada por el \url{CEO} de ARM, Warren East, en un evento en
+\url{Cambridge}, haciendo referencia a la filosofía de Google de mejorar
+la enseñanza de ciencias y tecnología de la computación en el Reino
+Unido.\footnote{}
+
+Harry Fairhead sugiere que se tendría que dar más énfasis en mejorar el
+software educacional en el hardware actual, usando herramientas como
+\href{Google App Inventor}{Google App Inventor}, para volver a enseñar
+programación en las escuelas, en vez de sacar nuevos sistemas.\footnote{}
+Simon Rockman, que escribe en el blog \url{ZDNet} opinaba que los
+adolescentes tienen ``mejores cosas que hacer'', a pesar de lo que
+ocurrió en los \href{Década de 1980}{1980}.\footnote{}
+
+Otros proyectos de código abierto han criticado que hubiera poca
+documentación sobre el hardware (en la sección de preguntas frecuentes
+de la web de Raspberry Pi se explica que no se va a lanzar el
+\url{datasheet} completo para el SoC BCM2835), lo cual permitiría portar
+otros sistemas operativos al Raspberry Pi fácilmente.\footnote{}\footnote{}
+
+En octubre de 2012 el Raspberry Pi ganó el premio T3 ``Innovación del
+año'',\footnote{} y el British Computer Museum, después del anuncio de
+que se iba a doblar la memoria RAM del Raspberry Pi, declaró que ``esto
+es algo a lo que definitivamente queremos hincarle el
+diente''.\footnote{}
+
+\end{frame}
+
+\begin{frame}\frametitle{Uso}
+
+En enero de 2012, encuestas hechas en el Reino Unido acerca de la
+penetración en las aulas de Raspberry Pi concluyeron que por cada placa
+que había en un \href{colegio público}{colegio público}, había cinco en
+colegios privados. Por ello se espera que en un futuro empresas
+patrocinen la adquisición de placas en colegios públicos.\footnote{}
+
+El CEO de Premier Farnell declaró que el gobierno de un país de
+\href{medio oriente}{medio oriente} expresó interés en proveer una placa
+a cada chica estudiante, con el objetivo de mejorar sus expectativas de
+empleo en el futuro.\footnote{}\footnote{}
+
+A finales de enero de 2013, se dio a conocer que Google, junto con la
+ayuda de otros 6 socios, repartiría 15.000 placas entre estudiantes del
+Reino Unido que mostrarán motivación por las ciencias de la
+computación.\footnote{}
+
+\end{frame}
+
+\begin{frame}\frametitle{Véase también}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \href{Linux embebido}{Linux embebido}
+\item
+  \url{MiniPC}
+\item
+  \href{Placa computadora}{Placa computadora}
+\item
+  \href{Radio por Internet}{Radio por Internet}
+\item
+  \url{XBMC}
+\item
+  \url{Arduino} - Microcontrolador de hardware abierto
+\item
+  \url{Beagleboard} - Placa computadora de bajo coste basada en ARM
+\item
+  \href{BBC Micro}{BBC Micro} - Serie de ordenadores antiguos que han
+  inspirado a Raspberry Pi
+\item
+  \href{ECB AT91}{ECB AT91} - Placa computadora
+\item
+  \url{Gumstix} - Empresa fabricante de placas de computadora
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}\frametitle{Referencias}
+
+\end{frame}
+
+\begin{frame}\frametitle{Enlaces externos}
+
+\begin{itemize}
+\item
+  \href{http://www.raspberrypi.org}{Página oficial de la fundación
+  Raspberry Pi con blog y foros}
+\item
+  \href{http://elinux.org/RaspberryPiBoard}{Wiki de Raspberry Pi apoyada
+  por la RPF}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}\frametitle{Nota}
+
+\href{Categoría:Ciencia y tecnología del Reino Unido}{Categoría:Ciencia
+y tecnología del Reino Unido} \url{Categoría:Computadoras}
+\href{Categoría:Reino Unido en 2012}{Categoría:Reino Unido en 2012}
+\url{Categoría:MiniPCs}
+\href{Categoría:Arquitectura ARM}{Categoría:Arquitectura ARM}
+\href{Categoría:Tecnología educativa}{Categoría:Tecnología educativa}
+\href{Categoría:Linux embebido}{Categoría:Linux embebido}
+\href{Categoría:Software móvil}{Categoría:Software móvil}
+\href{Categoría:Sistemas embebidos}{Categoría:Sistemas embebidos}
+\url{Categoría:Microcontroladores}
+
+\end{frame}

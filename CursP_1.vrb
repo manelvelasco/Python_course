@@ -1,0 +1,39 @@
+\frametitle {Object-oriented programming}
+\begin{columns}[c]
+\column{0.4\textwidth}
+\begin{block}{Class Declaration}
+\tiny
+\begin{minted} [bgcolor=mybg,frame=lines,bgcolor=mybg,frame=lines,bgcolor=mybg,frame=lines,mathescape]{python}
+>>> class Student(object):
+...     def __init__(self, name):
+...         self.name = name
+...     def set_age(self, age):
+...         self.age = age
+...     def set_major(self, major):
+...         self.major = major
+...
+>>> anna = Student('anna')
+>>> anna.set_age(21)
+>>> anna.set_major('physics')
+\end{minted}
+
+\end{block}
+
+\column{0.6\textwidth}
+\begin{block}{Class extension}
+\tiny
+\begin{minted} [bgcolor=mybg,frame=lines,bgcolor=mybg,frame=lines,bgcolor=mybg,frame=lines,mathescape]{python}
+>>> class MasterStudent(Student):
+...     internship = 'mandatory, from March to June'
+...
+>>> james = MasterStudent('james')
+>>> james.internship
+'mandatory, from March to June'
+>>> james.set_age(23)
+>>> james.age
+23
+\end{minted}
+
+\end{block}
+
+\end{columns}

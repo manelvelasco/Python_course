@@ -1,0 +1,11 @@
+\frametitle {About this course}
+\begin{block}{}
+
+
+    \begin{itemize}
+        \item Todo el material se ha preparado empleando \LaTeX~ y ediado en  \href{http://www.vim.org}{Vim} (por desgracia de  Alex).
+        \item El código Python están empotrados en  \LaTeX con la ayuda de  \href{http://mpastell.com/pweave/}{Pweave}, desarrollado por  Matti Pastell.
+        \item Todo el código Python se ha marcado en el documento mediante el paquete  \emph{minted}, desarrollado por Konrad Rudolph, el \emph{python syntax highlighter} \href{http://pygments.org}{Pygments}, y código bash propio.
+    \end{itemize}
+    \end{block}
+

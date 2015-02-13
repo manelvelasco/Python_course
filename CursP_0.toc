@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Content}{2}{0}{1}
+\beamer@sectionintoc {2}{Authors}{3}{0}{2}
+\beamer@sectionintoc {3}{Preparation}{6}{0}{3}

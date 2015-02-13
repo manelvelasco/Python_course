@@ -1,0 +1,221 @@
+[NotebookApp] Using existing profile dir: u'/home/alex/.config/ipython/profile_default'
+[NotebookApp] Serving notebooks from /mnt/MicroSD/python
+[NotebookApp] The IPython Notebook is running at: http://127.0.0.1:8888/
+[NotebookApp] Use Control-C to stop this server and shut down all kernels.
+[NotebookApp] No web browser found: could not locate runnable browser.
+[NotebookApp] Using system MathJax
+WARNING:root:404 GET /mathjax/images/MenuArrow-15.png (127.0.0.1) 1.37ms
+[NotebookApp] Kernel started: 4eb4b25a-1c25-44ea-9c3f-ab8e2c4001fc
+[NotebookApp] Connecting to: tcp://127.0.0.1:58426
+[NotebookApp] Connecting to: tcp://127.0.0.1:33919
+[NotebookApp] Connecting to: tcp://127.0.0.1:54948
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 3.92ms
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 1.21ms
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-4eb4b25a-1c25-44ea-9c3f-ab8e2c4001fc.json
+[NotebookApp] Using existing kernel: 4eb4b25a-1c25-44ea-9c3f-ab8e2c4001fc
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 0.88ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:58426
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 5.64ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:33919
+[NotebookApp] Connecting to: tcp://127.0.0.1:54948
+[NotebookApp] Using existing kernel: 4eb4b25a-1c25-44ea-9c3f-ab8e2c4001fc
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 0.89ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:58426
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 0.99ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:33919
+[NotebookApp] Connecting to: tcp://127.0.0.1:54948
+[NotebookApp] Kernel 4eb4b25a-1c25-44ea-9c3f-ab8e2c4001fc failed to respond to heartbeat
+[NotebookApp] Kernel started: 11454809-87e3-448d-ad55-991a175e1a22
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-11454809-87e3-448d-ad55-991a175e1a22.json
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.09ms
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 0.81ms
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 0.96ms
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 2.25ms
+WARNING:root:404 GET /mathjax/images/MenuArrow-15.png (127.0.0.1) 2.02ms
+WARNING:root:Read error on 40: [Errno 104] Connection reset by peer
+WARNING:root:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 354, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 421, in _read_to_buffer
+    chunk = self._read_from_socket()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 402, in _read_from_socket
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 104] Connection reset by peer
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.84ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 2.34ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.26ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 1.00ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.21ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 3.67ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 0.80ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 3.81ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 0.92ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 0.92ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 3.00ms
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.11ms
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 5.47ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.20ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 2.82ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.02ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 4.99ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.10ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 0.91ms
+[NotebookApp] Using existing kernel: 11454809-87e3-448d-ad55-991a175e1a22
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 0.98ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:44455
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 1.53ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:60854
+[NotebookApp] Connecting to: tcp://127.0.0.1:33610
+[NotebookApp] Kernel 11454809-87e3-448d-ad55-991a175e1a22 failed to respond to heartbeat
+[NotebookApp] Kernel started: 43b3a78a-e651-4b75-8402-8a263395fbc0
+[NotebookApp] Connecting to: tcp://127.0.0.1:56644
+[NotebookApp] Connecting to: tcp://127.0.0.1:39601
+[NotebookApp] Connecting to: tcp://127.0.0.1:46168
+[NotebookApp] Kernel 43b3a78a-e651-4b75-8402-8a263395fbc0 failed to respond to heartbeat
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-43b3a78a-e651-4b75-8402-8a263395fbc0.json
+[NotebookApp] Kernel started: 9ad3e5b8-5b66-4aa7-9fdf-7676528a5acb
+[NotebookApp] Connecting to: tcp://127.0.0.1:40446
+[NotebookApp] Connecting to: tcp://127.0.0.1:46094
+[NotebookApp] Connecting to: tcp://127.0.0.1:60431
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-9ad3e5b8-5b66-4aa7-9fdf-7676528a5acb.json
+[NotebookApp] Kernel 9ad3e5b8-5b66-4aa7-9fdf-7676528a5acb failed to respond to heartbeat
+[NotebookApp] Kernel started: ad8d253c-af9e-469b-a343-bc532062ac92
+[NotebookApp] Connecting to: tcp://127.0.0.1:34251
+[NotebookApp] Connecting to: tcp://127.0.0.1:33420
+[NotebookApp] Connecting to: tcp://127.0.0.1:56222
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-ad8d253c-af9e-469b-a343-bc532062ac92.json
+WARNING:root:404 GET /mathjax/images/MenuArrow-15.png (127.0.0.1) 1.19ms
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 18.43ms
+[NotebookApp] Using existing kernel: ad8d253c-af9e-469b-a343-bc532062ac92
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 0.86ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:34251
+[NotebookApp] Connecting to: tcp://127.0.0.1:33420
+[NotebookApp] Connecting to: tcp://127.0.0.1:56222
+[NotebookApp] Kernel ad8d253c-af9e-469b-a343-bc532062ac92 failed to respond to heartbeat
+[NotebookApp] Kernel ad8d253c-af9e-469b-a343-bc532062ac92 failed to respond to heartbeat
+[NotebookApp] Kernel started: 0d82f4c7-34a8-4050-a419-ab49e759fb44
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.27ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:54155
+[NotebookApp] Connecting to: tcp://127.0.0.1:44467
+[NotebookApp] Connecting to: tcp://127.0.0.1:52217
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 1.72ms
+WARNING:root:404 GET /mathjax/images/MenuArrow-15.png (127.0.0.1) 1.17ms
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-0d82f4c7-34a8-4050-a419-ab49e759fb44.json
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.26ms
+[NotebookApp] Using existing kernel: 0d82f4c7-34a8-4050-a419-ab49e759fb44
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 0.85ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:54155
+[NotebookApp] Connecting to: tcp://127.0.0.1:44467
+[NotebookApp] Connecting to: tcp://127.0.0.1:52217
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 3.25ms
+[NotebookApp] Using existing kernel: 0d82f4c7-34a8-4050-a419-ab49e759fb44
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 0.91ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:54155
+[NotebookApp] Connecting to: tcp://127.0.0.1:44467
+[NotebookApp] Connecting to: tcp://127.0.0.1:52217
+WARNING:root:404 GET /mathjax/images/MenuArrow-15.png (127.0.0.1) 1.20ms
+[NotebookApp] Using existing kernel: 0d82f4c7-34a8-4050-a419-ab49e759fb44
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 4.96ms
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 1.17ms
+[NotebookApp] Using existing profile dir: u'/home/alex/.config/ipython/profile_default'
+[NotebookApp] Using existing profile dir: u'/home/alex/.config/ipython/profile_default'
+[NotebookApp] Using existing kernel: 0d82f4c7-34a8-4050-a419-ab49e759fb44
+WARNING:root:404 GET /mathjax/images/MenuArrow-15.png (127.0.0.1) 1.49ms
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.10ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:54155
+[NotebookApp] Connecting to: tcp://127.0.0.1:44467
+[NotebookApp] Connecting to: tcp://127.0.0.1:52217
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 0.87ms
+[NotebookApp] Kernel 0d82f4c7-34a8-4050-a419-ab49e759fb44 failed to respond to heartbeat
+[NotebookApp] received signal 15, stopping
+[NotebookApp] Shutting down kernels
+[NotebookApp] Kernel shutdown: 4eb4b25a-1c25-44ea-9c3f-ab8e2c4001fc
+[NotebookApp] Kernel shutdown: ad8d253c-af9e-469b-a343-bc532062ac92
+[NotebookApp] Kernel shutdown: 11454809-87e3-448d-ad55-991a175e1a22
+[NotebookApp] Kernel shutdown: 0d82f4c7-34a8-4050-a419-ab49e759fb44
+[NotebookApp] Kernel shutdown: 43b3a78a-e651-4b75-8402-8a263395fbc0
+[NotebookApp] Kernel shutdown: 9ad3e5b8-5b66-4aa7-9fdf-7676528a5acb
+[NotebookApp] Using existing profile dir: u'/home/alex/.config/ipython/profile_default'
+[NotebookApp] Serving notebooks from /mnt/MicroSD/python
+[NotebookApp] The IPython Notebook is running at: http://127.0.0.1:8888/
+[NotebookApp] Use Control-C to stop this server and shut down all kernels.
+[NotebookApp] No web browser found: could not locate runnable browser.
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.81ms
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 4.29ms
+[NotebookApp] Using system MathJax
+[NotebookApp] Kernel started: 1e251c4b-ac80-403a-be06-f65410c05e7d
+WARNING:root:404 GET /mathjax/images/MenuArrow-15.png (127.0.0.1) 4.80ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:34041
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 0.97ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:37094
+[NotebookApp] Connecting to: tcp://127.0.0.1:36608
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 1.20ms
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-1e251c4b-ac80-403a-be06-f65410c05e7d.json
+[NotebookApp] Using existing kernel: 1e251c4b-ac80-403a-be06-f65410c05e7d
+[NotebookApp] Connecting to: tcp://127.0.0.1:34041
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 3.22ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:37094
+[NotebookApp] Connecting to: tcp://127.0.0.1:36608
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 1.91ms
+[NotebookApp] Using existing kernel: 1e251c4b-ac80-403a-be06-f65410c05e7d
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 4.11ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:34041
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 6.28ms
+[NotebookApp] Connecting to: tcp://127.0.0.1:37094
+[NotebookApp] Connecting to: tcp://127.0.0.1:36608
+WARNING:root:404 GET /apple-touch-icon-precomposed.png (127.0.0.1) 1.28ms
+WARNING:root:404 GET /apple-touch-icon.png (127.0.0.1) 1.16ms
+[NotebookApp] received signal 15, stopping
+[NotebookApp] Shutting down kernels
+[NotebookApp] Kernel shutdown: 1e251c4b-ac80-403a-be06-f65410c05e7d

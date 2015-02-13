@@ -1,0 +1,9 @@
+import numpy as np
+from scipy import fftpack
+import matplotlib.pyplot as plt
+img = plt.imread('challenges/orionnebula.jpg')
+plt.imshow(img)
+plt.show()
+
+
+kernel_ft = fftpack.fft2(img)<

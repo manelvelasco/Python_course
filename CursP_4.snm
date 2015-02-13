@@ -1,0 +1,10 @@
+\beamer@slide {sec:scikit timeseries}{8}
+\beamer@slide {sec:audiolab}{13}
+\beamer@slide {sec:scikit-learn}{17}
+\beamer@slide {sub:Datasets in sklearn}{17}
+\beamer@slide {sec:Clustering}{24}
+\beamer@slide {sec:}{35}
+\beamer@slide {sec:Classfication}{53}
+\beamer@slide {ssub:Metrics}{57}
+\beamer@slide {ssub:Cross Validation}{59}
+\beamer@slide {sec:A Practical Introduction to Scikit-learn}{69}

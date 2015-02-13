@@ -1,0 +1,23 @@
+Python 2.7.2+ (default, Jul 20 2012, 22:15:08) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: 
+In [2]: Out[2]: 1
+
+In [3]: 
+In [4]: 
+In [5]: ---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-5-c2fb1ae5a0ad> in <module>()
+----> 1 r.sort()
+
+NameError: name 'r' is not defined
+
+In [6]: 
+Do you really want to exit ([y]/n)? 

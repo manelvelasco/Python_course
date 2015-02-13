@@ -1,0 +1,7 @@
+
+apt-get install libatlas-dev libpng12-dev libfreetype6 libfreetype6-dev g++ libzmq-dev liblapack-dev gfortran python-dev build-essential python-qt4   ipython-notebook python-numpy  python-scipy python-sklearn python-scikits-learn python-skimage spyder ipython-qtconsole python-matplotlib python-ipdb reinteract python-pygments python-tornado python-pandas mayavi2 r-cran-snow r-cran-rgl r-recommended r-cran-plyr r-cran-genabel r-bioc-biocgenerics r-bioc-biobase r-bioc-edger r-bioc-limma r-cran-lme4 r-cran-rmpi r-cran-gplots  
+
+
+
+
+

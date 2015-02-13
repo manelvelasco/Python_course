@@ -1,0 +1,21 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction to Python Scikits}{5}{0}{1}
+\beamer@subsectionintoc {1}{1}{pandas}{8}{0}{1}
+\beamer@subsectionintoc {1}{2}{audiolab}{13}{0}{1}
+\beamer@sectionintoc {2}{scikit-learn}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Datasets in sklearn}{17}{0}{2}
+\beamer@subsectionintoc {2}{2}{Unsupervised Learning}{24}{0}{2}
+\beamer@subsectionintoc {2}{3}{Principal Component Analysis}{35}{0}{2}
+\beamer@subsectionintoc {2}{4}{Supervised Learning}{53}{0}{2}
+\beamer@subsectionintoc {2}{5}{Metrics}{57}{0}{2}
+\beamer@subsectionintoc {2}{6}{Cross Validation}{59}{0}{2}
+\beamer@sectionintoc {3}{A Practical Introduction to Scikit-learn}{69}{0}{3}
+\beamer@subsectionintoc {3}{1}{Data Description}{70}{0}{3}
+\beamer@subsectionintoc {3}{2}{Importing Data}{76}{0}{3}
+\beamer@subsectionintoc {3}{3}{Unsupervised Analysis}{85}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{1}{Principal Component Analysis}{85}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{2}{Clustering}{91}{0}{3}
+\beamer@subsectionintoc {3}{4}{Supervised Analysis}{95}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{1}{k-Nearest Neighbours}{95}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{2}{Support Vector Classification}{99}{0}{3}

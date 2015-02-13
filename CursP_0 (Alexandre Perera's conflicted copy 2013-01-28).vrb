@@ -1,0 +1,12 @@
+\frametitle {About this course}
+\begin{block}{}
+
+
+    \begin{itemize}
+        \item All material has been prepared with \LaTeX~ and edited on \href{http://www.vim.org}{Vim} by disgrace of Alex (an emacs guy).
+        \item Python snippets have been embedded into \LaTeX with help of \href{http://mpastell.com/pweave/}{Pweave}, developed by Matti Pastell.
+        \item All Python code and results has been highlighted through \emph{minted} package, developed by Konrad Rudolph, the \emph{python syntax highlighter} \href{http://pygments.org}{Pygments}, and custom build bash hacks because the world is not really perfect.
+
+    \end{itemize}
+    \end{block}
+

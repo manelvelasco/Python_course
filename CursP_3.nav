@@ -1,0 +1,312 @@
+\beamer@endinputifotherversion {3.10pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {0}{0}{2}{2/3}{}{0}}
+\headcommand {\beamer@framepages {2}{3}}
+\headcommand {\sectionentry {1}{Introduction}{4}{Introduction}{0}}
+\headcommand {\beamer@sectionpages {1}{3}}
+\headcommand {\beamer@subsectionpages {1}{3}}
+\headcommand {\slideentry {1}{0}{3}{4/4}{}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{0}{4}{5/8}{}{0}}
+\headcommand {\beamer@framepages {5}{8}}
+\headcommand {\slideentry {1}{0}{5}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{10}{Input/Output}}\headcommand {\beamer@subsectionpages {4}{9}}
+\headcommand {\slideentry {1}{1}{1}{10/10}{Input/Output}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{1}{2}{11/11}{Input/Output}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {1}{1}{3}{12/12}{Input/Output}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\sectionentry {2}{Statistics}{13}{Statistics}{0}}
+\headcommand {\beamer@sectionpages {4}{12}}
+\headcommand {\beamer@subsectionpages {10}{12}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{13}{First statistics}}\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\slideentry {2}{1}{1}{13/13}{First statistics}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {2}{1}{2}{14/15}{First statistics}{0}}
+\headcommand {\beamer@framepages {14}{15}}
+\headcommand {\slideentry {2}{1}{3}{16/16}{First statistics}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{17}{Probability Distributions}}\headcommand {\beamer@subsectionpages {13}{16}}
+\headcommand {\slideentry {2}{2}{1}{17/17}{Probability Distributions}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {2}{2}{2}{18/18}{Probability Distributions}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {2}{2}{3}{19/19}{Probability Distributions}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {2}{2}{4}{20/20}{Probability Distributions}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {2}{2}{5}{21/21}{Probability Distributions}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{2}{6}{22/22}{Probability Distributions}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {2}{2}{7}{23/23}{Probability Distributions}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {2}{2}{8}{24/24}{Probability Distributions}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{25}{Density Estimation}}\headcommand {\beamer@subsectionpages {17}{24}}
+\headcommand {\slideentry {2}{3}{1}{25/25}{Density Estimation}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {2}{3}{2}{26/26}{Density Estimation}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {2}{3}{3}{27/27}{Density Estimation}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {2}{3}{4}{28/28}{Density Estimation}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {2}{3}{5}{29/29}{Density Estimation}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {2}{3}{6}{30/30}{Density Estimation}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{31}{Statistical Testing}}\headcommand {\beamer@subsectionpages {25}{30}}
+\headcommand {\slideentry {2}{4}{1}{31/31}{Statistical Testing}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {2}{4}{2}{32/32}{Statistical Testing}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {2}{4}{3}{33/33}{Statistical Testing}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {2}{4}{4}{34/34}{Statistical Testing}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {2}{4}{5}{35/35}{Statistical Testing}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {2}{4}{6}{36/36}{Statistical Testing}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {2}{4}{7}{37/37}{Statistical Testing}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\slideentry {2}{4}{8}{38/38}{Statistical Testing}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\sectionentry {3}{Some Calculus}{39}{Some Calculus}{0}}
+\headcommand {\beamer@sectionpages {13}{38}}
+\headcommand {\beamer@subsectionpages {31}{38}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{39}{Linear Algebra}}\headcommand {\beamer@subsectionpages {39}{38}}
+\headcommand {\slideentry {3}{1}{1}{39/39}{Linear Algebra}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {3}{1}{2}{40/40}{Linear Algebra}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {3}{1}{3}{41/41}{Linear Algebra}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {3}{1}{4}{42/42}{Linear Algebra}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {3}{1}{5}{43/43}{Linear Algebra}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {3}{1}{6}{44/45}{Linear Algebra}{0}}
+\headcommand {\beamer@framepages {44}{45}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{46}{Fast Fourier Transforms}}\headcommand {\beamer@subsectionpages {39}{45}}
+\headcommand {\slideentry {3}{2}{1}{46/47}{Fast Fourier Transforms}{0}}
+\headcommand {\beamer@framepages {46}{47}}
+\headcommand {\slideentry {3}{2}{2}{48/48}{Fast Fourier Transforms}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {3}{2}{3}{49/49}{Fast Fourier Transforms}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {3}{2}{4}{50/50}{Fast Fourier Transforms}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {3}{2}{5}{51/51}{Fast Fourier Transforms}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\slideentry {3}{2}{6}{52/52}{Fast Fourier Transforms}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\slideentry {3}{2}{7}{53/53}{Fast Fourier Transforms}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{54}{Optimization}}\headcommand {\beamer@subsectionpages {46}{53}}
+\headcommand {\slideentry {3}{3}{1}{54/55}{Optimization}{0}}
+\headcommand {\beamer@framepages {54}{55}}
+\headcommand {\slideentry {3}{3}{2}{56/56}{Optimization}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {3}{3}{3}{57/57}{Optimization}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\slideentry {3}{3}{4}{58/59}{Optimization}{0}}
+\headcommand {\beamer@framepages {58}{59}}
+\headcommand {\slideentry {3}{3}{5}{60/60}{Optimization}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\slideentry {3}{3}{6}{61/61}{Optimization}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\slideentry {3}{3}{7}{62/62}{Optimization}{0}}
+\headcommand {\beamer@framepages {62}{62}}
+\headcommand {\slideentry {3}{3}{8}{63/63}{Optimization}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\slideentry {3}{3}{9}{64/64}{Optimization}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {3}{3}{10}{65/65}{Optimization}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{66}{Interpolation}}\headcommand {\beamer@subsectionpages {54}{65}}
+\headcommand {\slideentry {3}{4}{1}{66/66}{Interpolation}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\slideentry {3}{4}{2}{67/67}{Interpolation}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\slideentry {3}{4}{3}{68/68}{Interpolation}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\slideentry {3}{4}{4}{69/69}{Interpolation}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{70}{Numerical Integration}}\headcommand {\beamer@subsectionpages {66}{69}}
+\headcommand {\slideentry {3}{5}{1}{70/70}{Numerical Integration}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\slideentry {3}{5}{2}{71/71}{Numerical Integration}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\slideentry {3}{5}{3}{72/72}{Numerical Integration}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {3}{5}{4}{73/73}{Numerical Integration}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {3}{5}{5}{74/74}{Numerical Integration}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\beamer@subsectionentry {0}{3}{6}{75}{Signal and Image Processing}}\headcommand {\beamer@subsectionpages {70}{74}}
+\headcommand {\slideentry {3}{6}{1}{75/75}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\slideentry {3}{6}{2}{76/76}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\slideentry {3}{6}{3}{77/77}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\slideentry {3}{6}{4}{78/78}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\slideentry {3}{6}{5}{79/79}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {79}{79}}
+\headcommand {\slideentry {3}{6}{6}{80/80}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\slideentry {3}{6}{7}{81/81}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {81}{81}}
+\headcommand {\slideentry {3}{6}{8}{82/82}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {82}{82}}
+\headcommand {\slideentry {3}{6}{9}{83/83}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\slideentry {3}{6}{10}{84/84}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {84}{84}}
+\headcommand {\slideentry {3}{6}{11}{85/85}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {85}{85}}
+\headcommand {\slideentry {3}{6}{12}{86/86}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {86}{86}}
+\headcommand {\slideentry {3}{6}{13}{87/87}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {87}{87}}
+\headcommand {\slideentry {3}{6}{14}{88/88}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {88}{88}}
+\headcommand {\slideentry {3}{6}{15}{89/89}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {89}{89}}
+\headcommand {\slideentry {3}{6}{16}{90/90}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {90}{90}}
+\headcommand {\slideentry {3}{6}{17}{91/91}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {91}{91}}
+\headcommand {\slideentry {3}{6}{18}{92/92}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {92}{92}}
+\headcommand {\slideentry {3}{6}{19}{93/93}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {93}{93}}
+\headcommand {\slideentry {3}{6}{20}{94/94}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {94}{94}}
+\headcommand {\slideentry {3}{6}{21}{95/95}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {95}{95}}
+\headcommand {\slideentry {3}{6}{22}{96/96}{Signal and Image Processing}{0}}
+\headcommand {\beamer@framepages {96}{96}}
+\headcommand {\sectionentry {4}{Storage Schemes and code profiling}{97}{Storage Schemes and code profiling}{0}}
+\headcommand {\beamer@sectionpages {39}{96}}
+\headcommand {\beamer@subsectionpages {75}{96}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{97}{Introduction to storage of large data}}\headcommand {\beamer@subsectionpages {97}{96}}
+\headcommand {\slideentry {4}{1}{1}{97/97}{Introduction to storage of large data}{0}}
+\headcommand {\beamer@framepages {97}{97}}
+\headcommand {\slideentry {4}{1}{2}{98/98}{Introduction to storage of large data}{0}}
+\headcommand {\beamer@framepages {98}{98}}
+\headcommand {\slideentry {4}{1}{3}{99/99}{Introduction to storage of large data}{0}}
+\headcommand {\beamer@framepages {99}{99}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{100}{Storage Schemes}}\headcommand {\beamer@subsectionpages {97}{99}}
+\headcommand {\slideentry {4}{2}{1}{100/100}{Storage Schemes}{0}}
+\headcommand {\beamer@framepages {100}{100}}
+\headcommand {\slideentry {4}{2}{2}{101/101}{Storage Schemes}{0}}
+\headcommand {\beamer@framepages {101}{101}}
+\headcommand {\slideentry {4}{2}{3}{102/102}{Storage Schemes}{0}}
+\headcommand {\beamer@framepages {102}{102}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{103}{Linear System Solvers}}\headcommand {\beamer@subsectionpages {100}{102}}
+\headcommand {\slideentry {4}{3}{1}{103/103}{Linear System Solvers}{0}}
+\headcommand {\beamer@framepages {103}{103}}
+\headcommand {\slideentry {4}{3}{2}{104/104}{Linear System Solvers}{0}}
+\headcommand {\beamer@framepages {104}{104}}
+\headcommand {\slideentry {4}{3}{3}{105/105}{Linear System Solvers}{0}}
+\headcommand {\beamer@framepages {105}{105}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{106}{Others}}\headcommand {\beamer@subsectionpages {103}{105}}
+\headcommand {\slideentry {4}{4}{1}{106/106}{Others}{0}}
+\headcommand {\beamer@framepages {106}{106}}
+\headcommand {\beamer@subsectionentry {0}{4}{5}{107}{Notes On code optimization and profiling}}\headcommand {\beamer@subsectionpages {106}{106}}
+\headcommand {\slideentry {4}{5}{1}{107/107}{Notes On code optimization and profiling}{0}}
+\headcommand {\beamer@framepages {107}{107}}
+\headcommand {\slideentry {4}{5}{2}{108/108}{Notes On code optimization and profiling}{0}}
+\headcommand {\beamer@framepages {108}{108}}
+\headcommand {\slideentry {4}{5}{3}{109/109}{Notes On code optimization and profiling}{0}}
+\headcommand {\beamer@framepages {109}{109}}
+\headcommand {\beamer@subsectionentry {0}{4}{6}{110}{Profiling your code}}\headcommand {\beamer@subsectionpages {107}{109}}
+\headcommand {\slideentry {4}{6}{1}{110/110}{Profiling your code}{0}}
+\headcommand {\beamer@framepages {110}{110}}
+\headcommand {\slideentry {4}{6}{2}{111/111}{Profiling your code}{0}}
+\headcommand {\beamer@framepages {111}{111}}
+\headcommand {\slideentry {4}{6}{3}{112/112}{Profiling your code}{0}}
+\headcommand {\beamer@framepages {112}{112}}
+\headcommand {\slideentry {4}{6}{4}{113/113}{Profiling your code}{0}}
+\headcommand {\beamer@framepages {113}{113}}
+\headcommand {\slideentry {4}{6}{5}{114/114}{Profiling your code}{0}}
+\headcommand {\beamer@framepages {114}{114}}
+\headcommand {\slideentry {4}{6}{6}{115/115}{Profiling your code}{0}}
+\headcommand {\beamer@framepages {115}{115}}
+\headcommand {\beamer@subsectionentry {0}{4}{7}{116}{Speeding your code}}\headcommand {\beamer@subsectionpages {110}{115}}
+\headcommand {\slideentry {4}{7}{1}{116/116}{Speeding your code}{0}}
+\headcommand {\beamer@framepages {116}{116}}
+\headcommand {\slideentry {4}{7}{2}{117/117}{Speeding your code}{0}}
+\headcommand {\beamer@framepages {117}{117}}
+\headcommand {\slideentry {4}{7}{3}{118/118}{Speeding your code}{0}}
+\headcommand {\beamer@framepages {118}{118}}
+\headcommand {\slideentry {4}{7}{4}{119/119}{Speeding your code}{0}}
+\headcommand {\beamer@framepages {119}{119}}
+\headcommand {\slideentry {4}{7}{5}{120/120}{Speeding your code}{0}}
+\headcommand {\beamer@framepages {120}{120}}
+\headcommand {\slideentry {4}{7}{6}{121/121}{Speeding your code}{0}}
+\headcommand {\beamer@framepages {121}{121}}
+\headcommand {\sectionentry {5}{SymPy}{122}{SymPy}{0}}
+\headcommand {\beamer@sectionpages {97}{121}}
+\headcommand {\beamer@subsectionpages {116}{121}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{122}{First Steps with SimPy}}\headcommand {\beamer@subsectionpages {122}{121}}
+\headcommand {\slideentry {5}{1}{1}{122/122}{First Steps with SimPy}{0}}
+\headcommand {\beamer@framepages {122}{122}}
+\headcommand {\slideentry {5}{1}{2}{123/123}{First Steps with SimPy}{0}}
+\headcommand {\beamer@framepages {123}{123}}
+\headcommand {\slideentry {5}{1}{3}{124/124}{First Steps with SimPy}{0}}
+\headcommand {\beamer@framepages {124}{124}}
+\headcommand {\slideentry {5}{1}{4}{125/125}{First Steps with SimPy}{0}}
+\headcommand {\beamer@framepages {125}{125}}
+\headcommand {\slideentry {5}{1}{5}{126/126}{First Steps with SimPy}{0}}
+\headcommand {\beamer@framepages {126}{126}}
+\headcommand {\slideentry {5}{1}{6}{127/127}{First Steps with SimPy}{0}}
+\headcommand {\beamer@framepages {127}{127}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{128}{Algebraic manipulations}}\headcommand {\beamer@subsectionpages {122}{127}}
+\headcommand {\slideentry {5}{2}{1}{128/128}{Algebraic manipulations}{0}}
+\headcommand {\beamer@framepages {128}{128}}
+\headcommand {\slideentry {5}{2}{2}{129/129}{Algebraic manipulations}{0}}
+\headcommand {\beamer@framepages {129}{129}}
+\headcommand {\slideentry {5}{2}{3}{130/130}{Algebraic manipulations}{0}}
+\headcommand {\beamer@framepages {130}{130}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{131}{Calculus}}\headcommand {\beamer@subsectionpages {128}{130}}
+\headcommand {\slideentry {5}{3}{1}{131/131}{Calculus}{0}}
+\headcommand {\beamer@framepages {131}{131}}
+\headcommand {\slideentry {5}{3}{2}{132/132}{Calculus}{0}}
+\headcommand {\beamer@framepages {132}{132}}
+\headcommand {\slideentry {5}{3}{3}{133/133}{Calculus}{0}}
+\headcommand {\beamer@framepages {133}{133}}
+\headcommand {\slideentry {5}{3}{4}{134/134}{Calculus}{0}}
+\headcommand {\beamer@framepages {134}{134}}
+\headcommand {\slideentry {5}{3}{5}{135/135}{Calculus}{0}}
+\headcommand {\beamer@framepages {135}{135}}
+\headcommand {\slideentry {5}{3}{6}{136/136}{Calculus}{0}}
+\headcommand {\beamer@framepages {136}{136}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{137}{Equation solving}}\headcommand {\beamer@subsectionpages {131}{136}}
+\headcommand {\slideentry {5}{4}{1}{137/137}{Equation solving}{0}}
+\headcommand {\beamer@framepages {137}{137}}
+\headcommand {\slideentry {5}{4}{2}{138/138}{Equation solving}{0}}
+\headcommand {\beamer@framepages {138}{138}}
+\headcommand {\slideentry {5}{4}{3}{139/139}{Equation solving}{0}}
+\headcommand {\beamer@framepages {139}{139}}
+\headcommand {\beamer@subsectionentry {0}{5}{5}{140}{Linear Algebra}}\headcommand {\beamer@subsectionpages {137}{139}}
+\headcommand {\slideentry {5}{5}{1}{140/140}{Linear Algebra}{0}}
+\headcommand {\beamer@framepages {140}{140}}
+\headcommand {\slideentry {5}{5}{2}{141/141}{Linear Algebra}{0}}
+\headcommand {\beamer@framepages {141}{141}}
+\headcommand {\slideentry {5}{5}{3}{142/142}{Linear Algebra}{0}}
+\headcommand {\beamer@framepages {142}{142}}
+\headcommand {\beamer@partpages {1}{142}}
+\headcommand {\beamer@subsectionpages {140}{142}}
+\headcommand {\beamer@sectionpages {122}{142}}
+\headcommand {\beamer@documentpages {142}}
+\headcommand {\def \inserttotalframenumber {139}}

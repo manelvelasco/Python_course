@@ -1,0 +1,26 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Why Learn Python}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Python History}{11}{0}{1}
+\beamer@subsectionintoc {1}{3}{Installing Python}{12}{0}{1}
+\beamer@subsectionintoc {1}{4}{Python Resources}{13}{0}{1}
+\beamer@sectionintoc {2}{Working with Python}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{Workflow}{15}{0}{2}
+\beamer@subsectionintoc {2}{2}{ipython vs. CLI}{17}{0}{2}
+\beamer@subsectionintoc {2}{3}{Text Editors}{18}{0}{2}
+\beamer@subsectionintoc {2}{4}{IDEs}{19}{0}{2}
+\beamer@subsectionintoc {2}{5}{Notebook}{20}{0}{2}
+\beamer@sectionintoc {3}{Getting Started With Python}{21}{0}{3}
+\beamer@subsectionintoc {3}{1}{Introduction}{22}{0}{3}
+\beamer@subsectionintoc {3}{2}{Basic Types}{25}{0}{3}
+\beamer@subsectionintoc {3}{3}{Mutable and immutable}{43}{0}{3}
+\beamer@subsectionintoc {3}{4}{Controlling execution flow}{60}{0}{3}
+\beamer@subsectionintoc {3}{5}{Exception handling}{69}{0}{3}
+\beamer@sectionintoc {4}{Functions and Object Oriented Programming}{72}{0}{4}
+\beamer@subsectionintoc {4}{1}{Defining New Functions}{73}{0}{4}
+\beamer@subsectionintoc {4}{2}{Decorators}{86}{0}{4}
+\beamer@subsectionintoc {4}{3}{Writing Scripts and New Modules}{89}{0}{4}
+\beamer@subsectionintoc {4}{4}{Input and Output}{98}{0}{4}
+\beamer@subsectionintoc {4}{5}{Standard Library}{102}{0}{4}
+\beamer@subsectionintoc {4}{6}{Object-Oriented Programming}{107}{0}{4}

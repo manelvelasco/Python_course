@@ -1,0 +1,729 @@
+\documentclass[]{beamer}
+  % compress
+  %\documentclass[handout,xcolot=pdftex,dvipsnames,table]{beamer}
+%\definecolor{mybg}{RGB}{255,255,204}
+\definecolor{mybg}{RGB}{238,255,170}
+\usepackage{minted}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{color}
+%\usepackage{amsmath}
+%\usepackage{beamerthemesplit}
+%\usemintedstyle{trac}
+\input{format.tex}
+\begin{document}
+\setcounter{tocdepth}{1}
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+\title{ Python in a Nutshell}
+\subtitle
+ {Part I: Python, ipython, language and OOP } % (optional)
+\input{header.tex} %
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[plain]
+   %  \titlepage
+   \maketitle
+\end{frame}
+%----------------------------FRAME------------------------------------
+\begin{frame}[allowframebreaks]{Contents}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+ \note[options]{aixo son notes}
+\end{frame}
+%-------------------------------------------------------------------
+%---------------------------SECTION---------------------------------
+%-------------------------------------------------------------------
+\section{Introduction}
+
+
+
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{first}
+%-----------------------------CODE
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+import matplotlib.pyplot as plt
+from numpy import pi, linspace, sqrt, sin
+def manel():
+    print "hola"
+manel()
+\end{minted}
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+hola
+\end{minted}
+
+%-------------------------------END CODE
+
+Invisible code that sets the value of the variable $a$.
+%-------------------------------CODE
+
+%-------------------------------END CODE
+\end{frame}
+
+
+
+
+
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]
+  \setbeamercovered{dynamic}
+  \frametitle{  'tex'}
+Visible code that sets $b$ and squares it.
+\tiny
+%-------------------------------CODE
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: b = 3.15 
+In [2]: print b*b 
+Out[2]: 9.9225
+
+\end{minted}
+
+%-------------------------------END CODE
+\end{frame}
+
+
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]
+  \setbeamercovered{dynamic}
+  \frametitle{  'tex'}
+ Calling Python inline: $\sqrt{2} = 1.41421356237$
+ Recalling the variable $a$ set above: $a = 3.14$.
+ Here's a figure:
+%-------------------------------CODE
+\begin{figure}
+\begin{minipage}{0.45\linewidth}
+
+\includegraphics[width=\textwidth]{plwfigis/CursP_1_figure4}
+
+\end{minipage}
+\end{figure}
+
+%-------------------------------END CODE
+\end{frame}
+
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{demo}
+  hola
+
+
+
+%-------------------------------CODE
+%-------------------------------END CODE
+
+\end{frame}
+
+\subsection{Why Learn Python}
+%----------------------------FRAME------------------------------------
+
+\begin{frame}\frametitle{The scientist’s needs}
+\small
+\begin{itemize}
+    \item Get data (simulation, experiment control)
+    \item Manipulate and process data.
+    \item Visualize results... to understand what we are doing!
+    \item Communicate results: produce figures for reports or publications, write presentations.
+\end{itemize}
+\end{frame}
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Specifications}
+\small
+  \begin{itemize}
+    \item We don’t want to re-program the plotting of a curve, a Fourier transform or a fitting algorithm. Don’t reinvent the wheel! We need building blocks 
+    \item Easy to learn: computer science is neither our job nor our education
+    \item The code should be as readable as a book
+    \item Efficient code that executes quickly... but needless to say that a very fast code becomes useless if we spend too much time writing it. So, we need both a quick development time and a quick execution time
+    \item A single environment/language for everything
+\end{itemize}
+
+\end{frame}
+
+%----------------------------FRAME------------------------------------
+\begin{frame}\frametitle{ Existing solutions I}
+\begin{itemize}
+    \item Compiled languages: C, C++, Fortran, etc.
+        \begin{itemize}
+            \item Advantages:
+                \begin{itemize}
+                    \item \tiny Very fast. Very optimized compilers. For heavy computations, it’s difficult to outperform these languages.
+                    \item \tiny Some very optimized scientific libraries have been written for these languages. Example: BLAS (vector/matrix operations)
+                \end{itemize}
+            \item Drawbacks:
+                \begin{itemize}
+                    \item \tiny Painful usage: no interactivity during development, mandatory compilation steps, verbose syntax (*, **, ::, \} , ; etc.), manual memory management (tricky in C). These are \textbf{difficult languages} for non computer scientists.
+                 \end{itemize}
+        \end{itemize}
+ \end{itemize}
+
+\end{frame}
+\begin{frame}\frametitle{ Existing solutions II}
+\begin{itemize}
+    \item Scripting languages: Matlab   
+        \begin{itemize}
+            \item Advantages:
+                \begin{itemize}
+                    \item \tiny Very rich collection of libraries with numerous algorithms, for many different domains. Fast execution because these libraries are often written in a compiled language.
+                    \item \tiny Pleasant development environment: comprehensive and well organized help, integrated editor, etc.
+                    \item \tiny Commercial support is available. 
+                \end{itemize}
+            \item Drawbacks:
+                \begin{itemize}
+                    \item \tiny Base language is quite poor and can become restrictive for advanced users.
+                    \item \textbf{Not free }
+                \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{ Existing solutions III}
+ \begin{itemize}
+    \item Other scripting languages: Scilab, Octave, Igor, R, IDL, etc.
+        \begin{itemize}
+            \item Advantages:
+                \begin{itemize}
+                     \item \tiny Open-source, free, or at least cheaper than Matlab.
+                    \item \tiny Some features can be very advanced (statistics in R, figures in Igor, etc.)\end{itemize}
+            \item Drawbacks:
+                \begin{itemize}
+                    \item \tiny Fewer available algorithms than in Matlab, and the language is not more advanced.
+                    \item \tiny Some software are dedicated to one domain. Ex: Gnuplot or xmgrace to draw curves. These programs are very powerful, but they are restricted to a single type of usage, such as plotting.
+                \end{itemize}
+        \end{itemize}
+\end{itemize}
+\end{frame}
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Why not?}
+
+ \begin{itemize}
+    \item What about Python?
+        \begin{itemize}
+            \item Advantages:
+                \begin{itemize}
+                     \item \tiny Very rich scientific computing libraries (a bit less than Matlab, though)
+                    \item \tiny Well thought out language, allowing to write very readable and well structured code: we “code what we think”.
+                    \item \tiny Many libraries for other tasks than scientific computing (web server management, serial port access, etc.)
+                    \item \tiny Free and open-source software, widely spread, with a vibrant community.
+                \end{itemize}
+            \item Drawbacks:
+                \begin{itemize}
+                    \item \tiny Less pleasant development environment than, for example, Matlab. (More geek-oriented).
+                    \item \tiny Not all the algorithms that can be found in more specialized software or toolboxes. 
+                \end{itemize}
+        \end{itemize}
+\end{itemize}
+\begin{block}{\begin{center}
+    It is not a must
+\end{center}}
+\begin{center}
+You don't need to use Python... but  what the hell,\\ \textbf{why not?}\end{center}
+\end{block}
+
+
+\end{frame}
+
+\subsection{Python History}
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{History}
+\begin{columns}[T]
+    \begin{column}{.7\textwidth}
+        \begin{block}{\centering History}
+\small
+            \begin{itemize}
+                 \item Python 1.0 - January 1994
+                    \begin{itemize}
+\tiny
+                        \item Python 1.5 - December 31, 1997
+                        \item Python 1.6 - September 5, 2000
+                    \end{itemize}
+                \item Python 2.0 - October 16, 2000
+                    \begin{itemize}
+\tiny
+                        \item Python 2.1 - April 17, 2001
+                        \item Python 2.2 - December 21, 2001
+                        \item Python 2.3 - July 29, 2003
+                        \item Python 2.4 - November 30, 2004
+                        \item Python 2.5 - September 19, 2006
+                        \item Python 2.6 - October 1, 2008
+                        \item \textbf{Python 2.7 - July 3, 2010}
+                    \end{itemize}
+                \item Python 3.0 - December 3, 2008
+                    \begin{itemize}
+\tiny
+                        \item Python 3.1 - June 27, 2009
+                        \item Python 3.2 - February 20, 2011
+                        \item Python 3.3 - September 29, 2012
+                    \end{itemize}
+            \end{itemize}
+        \end{block}
+    \end{column}
+    \begin{column}{.3\textwidth}
+        \begin{block}{ \centering  Guido van Rossum}
+            \begin{center}
+                Conceived in the late 1980s by 
+                \includegraphics[scale=0.2]{figs/Guido_van_Rossum.jpg}
+            \end{center}
+        \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+\subsection{Installing Python}
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Instalation}
+
+  \begin{columns}[T]
+    \begin{column}{.4\textwidth}
+        \begin{block}{\centering Linux}
+\begin{center}
+    \includegraphics[scale=0.3]{figs/linux.jpg}
+\end{center}
+                  apt-get install python
+        \end{block}
+    \end{column}
+    \begin{column}{.6\textwidth}
+        \begin{block}{ \centering  Windows}
+\centering
+
+\begin{center}
+\includegraphics[scale=0.3]{figs/windows.jpg}
+\end{center}    
+            Go to \textbf{http://www.python.org/getit/}
+            and download 
+\textbf{Python 2.7.3 Windows Installer}
+        \end{block}        
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+
+\subsection{Python Resources}
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Resources}
+\begin{block}{HELP!!!}
+\textbf{http://python.org}
+\begin{center}
+\includegraphics[scale=0.15]{figs/python__org.jpg}
+\end{center}  
+\end{block}
+  
+\end{frame}
+%-------------------------------------------------------------------
+%---------------------------SECTION---------------------------------
+%-------------------------------------------------------------------
+
+\section{Working with Python}
+
+\subsection{Workflow}
+
+%----------------------------FRAME------------------------------------
+{
+\usebackgroundtemplate{
+  \includegraphics[width=\paperwidth,height=\paperheight]{figs/workflow.pdf}
+}
+
+\begin{frame}[fragile]\frametitle{Workflow}
+\end{frame}
+}
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Python core}
+ 
+ \begin{columns}[T]
+    \begin{column}{.7\textwidth}
+        \begin{block}{\centering Python Core}
+\small Python is open, is just an specification, thus there are many Python implementations:
+\begin{description}
+\scriptsize    
+    \item[CPython] The default (C, C++)
+    \item[CLPython] Lisp implementation of Python
+    \item[Jython] The java implementation of Python
+    \item[PyPy] The python implementation of Python
+    \item [IronPython] C\# implementation
+\end{description}
+        \end{block}
+    \end{column}
+    \begin{column}{.3\textwidth}
+\begin{center}
+Python Core
+\includegraphics[scale=0.3]{figs/gears.jpg}
+\end{center}    
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+\subsection{ipython vs. CLI}
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Python Shell}
+        \begin{block}{\centering Python Shell}
+\small There are many tools to drive directly with Python, the most destacable are: 
+    \begin{description}
+\scriptsize    
+        \item[CLIPython] The default one
+        \item[IPython] Enhanced (VERY enhanced) default shell
+    \end{description}
+\end{block}
+\begin{figure}
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=\textwidth]{figs/commandline.jpg}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=\textwidth]{figs/commandline2.jpg}
+\end{minipage}
+\end{figure}    
+\end{frame}
+
+
+
+
+\subsection{Text Editors} % (fold)
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Text editors}
+\begin{block}{Script editors}
+ Any text editor is well swited for creating scripts with python, we recomend some features on it:
+\begin{itemize}
+    \item Tab substitution
+    \item Code snippets
+    \item Autocompletion
+\end{itemize}
+In the Linux wild, Vim and Emacs are both well swited.
+\end{block}
+
+\end{frame}
+
+\subsection{IDEs}
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{IDEs}
+ \begin{block}{Most Valuable IDEs}
+ \begin{description}
+     \item[Spyder] The Matlab-like eviromnent, scientist oriented.
+    % \item [EDP] Enthought Python Distribution, complete set of tools.
+Scientist oriented
+     \item[Eclipse-PyDEV] Big project oriented  
+ \end{description}
+ \end{block}
+\begin{center}
+    \textbf{DEMO}
+\end{center}
+
+\end{frame}
+
+\subsection{Notebook}
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Notebook}
+\begin{block}{An HTML Notebook IPython}
+The IPython Notebook consists of two related components:
+\begin{itemize}
+    \item An JSON based Notebook document format for recording and distributing Python code and rich text.
+\item A \textbf{web-based user interface} for authoring and running notebook documents.
+\end{itemize}
+\end{block}
+\begin{center}
+    \textbf{DEMO}
+\end{center}
+\end{frame}
+
+%-------------------------------------------------------------------
+%---------------------------SECTION---------------------------------
+%-------------------------------------------------------------------
+
+
+\section{Getting Started With Python}
+
+\subsection{Introduction}
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{First step}
+\begin{block}{\centering STEP 1}
+\centering Start the interpreter and type in
+\end{block}
+  %-------------------------------CODE
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: print "Hello, world" 
+Out[1]: Hello, world
+
+\end{minted}
+
+\begin{block}{}
+\centering Welcome to Python,\\ you just executed your first Python instruction, congratulations!
+\end{block}
+%-------------------------------END CODE
+\end{frame}
+
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Second step}
+\vspace{-0.1cm}
+\begin{block}{\centering STEP 2}
+\centering To get yourself started, type the following stack of instructions
+\end{block}
+ \begin{columns}[T]
+\begin{column}{.5\textwidth}
+\vspace{-0.3cm}
+%-------------------------------CODE
+\tiny
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: a = 3 
+In [2]: b = 2*a 
+In [3]: type(b) 
+Out[3]: <type 'int'>
+
+In [4]: print b 
+Out[4]: 6
+
+In [5]: a*b 
+Out[5]: 18
+
+In [6]: b = 'hello' 
+In [7]: type(b) 
+Out[7]: <type 'str'>
+
+In [8]: b + b 
+Out[8]: 'hellohello'
+
+In [9]: 2*b 
+Out[9]: 'hellohello'
+
+\end{minted}
+
+%-------------------------------END CODE
+
+\end{column}
+    \begin{column}{.5\textwidth}
+    \begin{block}{\centering Observe that}
+            \begin{itemize}
+\scriptsize    
+                \item We do not declare variables (hurrra!!!!!) 
+                \item Variable type may be changed on the fly (hurra!!!, hurrra!!!)
+                \item There is a way to overload operators (hurra!, hurra!, hurra!!!)\\
+                \item There is a function that tell us the type of a variable.
+            \end{itemize}
+       \end{block}
+
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\subsection{Basic Types}
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Types}
+ \begin{columns}[T]
+\begin{column}{.5\textwidth}
+   \begin{block}{Integer}
+ %-------------------------------CODE
+\tiny
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: 1+1 
+Out[1]: 2
+
+In [2]: a=4 
+\end{minted}
+
+ %-------------------------------END CODE
+  \end{block}
+ \begin{block}{Bolean}
+%-------------------------------CODE
+\tiny
+\tiny
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: 3 > 4 
+Out[1]: False
+
+In [2]: test = (3 > 4) 
+In [3]: test 
+Out[3]: False
+
+In [4]: type(test) 
+Out[4]: <type 'bool'>
+
+\end{minted}
+
+%-------------------------------END CODE
+\end{block}
+\end{column}
+    \begin{column}{.5\textwidth}
+ \begin{block}{Float}
+%-------------------------------CODE
+\tiny
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: c=2.1 
+In [2]: 3.5/c 
+Out[2]: 1.6666666666666665
+
+\end{minted}
+
+
+%-------------------------------END CODE
+\end{block}
+  \begin{block}{Complex}
+%-------------------------------CODE
+\tiny
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: a=1.5+0.5j 
+In [2]: a.real 
+Out[2]: 1.5
+
+In [3]: a.imag 
+Out[3]: 0.5
+
+In [4]: import cmath 
+In [5]: cmath.phase(a) 
+Out[5]: 0.3217505543966422
+
+\end{minted}
+
+%-------------------------------END CODE  
+  \end{block}
+
+\end{column}
+\end{columns}
+\end{frame}
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Basic Calculator}
+\begin{block}{A Python shell can therefore replace your pocket calculator, with the basic arithmetic operations +, -, *, /, \% (modulo) natively implemented:}
+%-------------------------------CODE
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: 7 * 3. 
+Out[1]: 21.0
+
+In [2]: 2**10 
+Out[2]: 1024
+
+In [3]: 8 % 3 
+Out[3]: 2
+
+\end{minted}
+
+%-------------------------------END CODE
+\end{block}
+
+\end{frame}
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{WARNING!}
+\begin{block}{Integer Division}
+%-------------------------------CODE
+\small
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: 3/2 
+Out[1]: 1
+
+\end{minted}
+
+%-------------------------------END CODE
+\end{block}
+\begin{block}{Use floats}
+%-------------------------------CODE
+\tiny
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+In [1]: 3 / 2. 
+Out[1]: 1.5
+
+In [2]: a = 3 
+In [3]: b = 2 
+In [4]: a / b 
+Out[4]: 1
+
+In [5]: a / float(b) 
+Out[5]: 1.5
+
+\end{minted}
+
+%-------------------------------END CODE
+\end{block}
+\end{frame}
+%----------------------------FRAME------------------------------------
+\begin{frame}[fragile]\frametitle{Containers}
+Python provides many efficient types of containers, in which collections of objects can be stored.
+\begin{block}{Lists}
+A list is an ordered collection of objects, that may have different types. For example
+%-------------------------------CODE
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+${\color{blue} In [1]}: l = [1, 2, 3, 4, 5] 
+In [2]: type(l) 
+Out[2]: <type 'list'>
+
+\end{minted}
+
+%-------------------------------END CODE
+
+\end{block}
+\end{frame}
+\subsection{Mutable and in.mutable}
+\subsection{Assignment operator}
+\subsection{Controlling execution flow}
+\subsection{Exception handling}
+
+
+%-------------------------------------------------------------------
+%---------------------------SECTION---------------------------------
+%-------------------------------------------------------------------
+
+
+\section{Functions and Object Oriented Programming}
+\subsection{Defining New Functions}
+\subsection{Decorators}
+\subsection{Writing Scripts and New Modules}
+\subsection{Input and Output}
+\subsection{Sandard Library}
+\subsection{Object-Oriented Programming}
+\subsection{Magic Functions}
+%-------------------------------------------------------------------
+%---------------------------SECTION---------------------------------
+%-------------------------------------------------------------------
+
+
+\section{Iterators and Generators}
+\subsection{Iterators}
+\subsection{Generators}
+
+%-------------------------------------------------------------------
+%---------------------------SECTION---------------------------------
+%-------------------------------------------------------------------
+
+\section{Creating Graphic Interfaces (optional)}
+
+
+%-------------------------------------------------------------------
+%---------------------------SECTION---------------------------------
+%-------------------------------------------------------------------
+
+\section{Debugging Code (optional)}
+\subsection{Avoiding bugs}
+\subsection{Debugging Workflow}
+\subsection{Python's Debigger}
+\subsection{Debugging segfaults using gdb}
+
+%-------------------------------------------------------------------
+%---------------------------FINAL FRAME-----------------------------
+%-------------------------------------------------------------------
+
+
+
+\begin{frame}[Thank you!] 
+  \begin{center}
+    \centering \includegraphics[width=0.5\linewidth]{figs/question_mark}
+  \end{center}
+\end{frame}
+
+
+\end{document}

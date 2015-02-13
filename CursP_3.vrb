@@ -1,0 +1,21 @@
+\frametitle {Challenge}
+\begin{block}{Differential Equations}
+Create a Generic function $f$
+%-------------------------------CODE
+\begin{minted}[bgcolor=mybg,frame=lines,mathescape]{python}
+>>> f = Function("f")
+>>> f(x)
+f(x)
+>>> f(x).diff()
+Derivative(f(x), x)
+>>> e = Eq( f(x).diff(x,x) + 9*f(x) , 0)
+>>> e
+9*f(x) + Derivative(f(x), x, x) == 0
+>>> dsolve(e,f(x))
+f(x) == C1*cos(3*x) + C2*sin(3*x)
+\end{minted}
+
+%-------------------------------END CODE
+
+\end{block}
+

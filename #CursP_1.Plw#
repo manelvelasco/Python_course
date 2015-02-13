@@ -1,0 +1,124 @@
+\documentclass[]{beamer}
+  % compress
+  %\documentclass[handout,xcolot=pdftex,dvipsnames,table]{beamer}
+\definecolor{mybg}{RGB}{255,255,204}
+\usepackage{minted}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+%\usepackage{amsmath}
+
+
+ % \usepackage{beamerthemesplit}
+
+%\usemintedstyle{trac}
+\input{format.tex}
+
+
+
+
+
+
+
+
+\title{ Python in a Nutshell}
+\subtitle
+ {Part I: Python, ipython, language and OOP } % (optional)
+
+\input{header.tex} %
+
+\begin{document}
+
+
+\begin{frame}[plain]
+   %  \titlepage
+   \maketitle
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Contents}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+ \note[options]{aixo son notes}
+\end{frame}
+
+
+\section{Introduction}
+
+\begin{frame}[fragile]\frametitle{first}
+
+
+<<>>=
+import matplotlib.pyplot as plt
+from numpy import pi, linspace, sqrt, sin
+@
+Invisible code that sets the value of the variable $a$.
+<<echo=FALSE>>=
+a = 3.14
+@
+\end{frame}
+
+
+\begin{frame}[fragile]
+  \setbeamercovered{dynamic}
+  \frametitle{  'tex')}
+Visible code that sets $b$ and squares it.
+<<term=TRUE>>=
+b = 3.15
+print b*b
+@
+\end{frame}
+
+
+\begin{frame}[fragile]
+  \setbeamercovered{dynamic}
+  \frametitle{  'tex')}
+ Calling Python inline: $\sqrt{2} = <%= sqrt(2) %>$
+ Recalling the variable $a$ set above: $a = <%= a %>$.
+ Here's a figure:
+<<fig=TRUE, echo=FALSE>>=
+x = linspace(0, 6*pi, 200)
+plt.plot(x, sin(x))
+@
+\end{frame}
+
+\subsection{Why Learn Python}
+
+\subsection{Python History}
+
+\subsection{Installing Python}
+
+\subsection{Python Resources}
+
+\section{Interactive Python}
+{Text Editors and Indentation}
+\subsection{Text Editors and Indentation}
+\subsection{ipython vs. CLI}
+\subsection{Notebook}
+\section{Help, Types and Flow Control }
+
+\subsection{Introduction}
+\subsection{Getting Help}
+\subsection{Basic Types}
+\subsection{Assignment operator}
+\subsection{Controlling execution flow}
+\section{Functions and Object Oriented Programming}
+\subsection{Defining New Functions}
+\subsection{Writing Scripts and New Modules}
+\subsection{Input \% Output}
+\subsection{Standard Library}
+\subsection{Exception Handling}
+
+\subsection{Object Oriented Programming}
+\section{Iterators and Generators}
+\subsection{Iterators}
+\subsection{Generators}
+\subsection{Decorators}
+
+\begin{frame}[Thank you!] 
+  \begin{center}
+    \centering \includegraphics[width=0.5\linewidth]{figs/question_mark}
+  \end{center}
+\end{frame}
+
+
+\end{document}

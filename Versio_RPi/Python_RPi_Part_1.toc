@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Content}{2}{0}{1}
+\beamer@sectionintoc {2}{Sobre los Autores}{4}{0}{2}
+\beamer@sectionintoc {3}{Introducci\IeC {\'o}n a GNU/Linux}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Porqu\IeC {\'e} GNU/Linux ?}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Linea de comando}{28}{0}{3}
+\beamer@subsectionintoc {3}{3}{Estructura de un sistema GNU/Linux}{30}{0}{3}
+\beamer@subsectionintoc {3}{4}{Sistema de archivos}{33}{0}{3}
+\beamer@sectionintoc {4}{Comandos UNIX \IeC {\'u}tiles}{54}{0}{4}
+\beamer@subsectionintoc {4}{1}{Usuarios y Permisos}{60}{0}{4}
+\beamer@subsectionintoc {4}{2}{Gesti\IeC {\'o}n de usuarios (v\IeC {\'\i }a terminal)}{75}{0}{4}
+\beamer@subsectionintoc {4}{3}{Ejecutando tareas como administrador}{81}{0}{4}
+\beamer@subsectionintoc {4}{4}{Instalando programas}{85}{0}{4}

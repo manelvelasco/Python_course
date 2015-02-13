@@ -1,0 +1,11 @@
+#!/bin/bash
+
+Pweave -c --cache-directory=cache --figure-directory=plwfigis -f tex  -g png  --minted $1.Plw && 
+sed 's/mathescape/bgcolor=mybg,frame=lines,mathescape/' $1.tex > $1.otex && 
+mv $1.otex $1.tex && 
+sed 's/.png//' $1.tex > $1.otex && 
+ mv $1.otex $1.tex && 
+pdflatex  -synctex=1 -shell-escape $1 
+#&& pdflatex -shell-escape $1
+
+
